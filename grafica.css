@@ -1,7 +1,8 @@
 body
 {
-	background-image: url("http://static.simpledesktops.com/uploads/desktops/2010/11/13/retro_november.png");
+	background-image: url("https://Rodolfi-Simone-Zhan-Sara.github.io/risorse/sfondo.jpg");
 	background-repeat: no-repeat;
-	background-position: right top;
+	background-position: center;
 	background-attachment: fixed;
+	background-size: cover;
 }
