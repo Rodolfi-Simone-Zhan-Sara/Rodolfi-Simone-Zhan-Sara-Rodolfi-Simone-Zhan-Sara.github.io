@@ -1,3 +1,4 @@
+function play(){
 var audios = ["/risorse/&_-.mp3","/risorse/+++.mp3"]
 var i = 1;
 
@@ -11,3 +12,5 @@ audio.onended = function() {
         i++;
     }
 };
+
+}
