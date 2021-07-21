@@ -4,7 +4,7 @@
 
 [ ] pulsante sul disco per far partire serie di suono
 
-[ ] php, leggere i dati dell'utente
+[ ] parte js
 
 [ ] suoni*99999 + tendina
 
