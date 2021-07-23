@@ -62,7 +62,7 @@ function play(){
         console.log("ciclato")        
     }
 
-    var index = 1;
+    var indice = 1;
 
     audio= new Audio(audios[0]);
     audio.play();
@@ -71,7 +71,7 @@ function play(){
         if(i < audios.length){
             audio.src=audios[i];
             audio.play();
-            index++;
+            indice++;
         }
     }
 
