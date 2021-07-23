@@ -68,8 +68,8 @@ function play(){
     audio.play();
 
     audio.onended = function() {
-        if(i < audios.length){
-            audio.src=audios[i];
+        if(indice < audios.length){
+            audio.src = audios[i];
             audio.play();
             indice++;
         }
