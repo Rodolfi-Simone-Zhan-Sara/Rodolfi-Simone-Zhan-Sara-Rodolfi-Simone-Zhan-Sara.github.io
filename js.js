@@ -7,7 +7,7 @@ function play(){
     const b = ["/risorse/B_bad.mp3", "/risorse/B_bocca.mp3", "/risorse/B_cassa.mp3", "/risorse/B_ospedale.mp3",
         "/risorse/B_robot.mp3", "/risorse/B_sveglia.mp3", "/risorse/B_uomo.mp3"];
     const sound = [a, b];
-    let text = "ab";
+    let text = "     a    bBAabababababbababakkkkkhhsdhfBbB          ";
     text = text.trim();
     text = text.toLowerCase();
 
@@ -15,16 +15,11 @@ function play(){
         for(let l of alphabet) {
             if (e == l) {
                 let index = alphabet.indexOf(l);
-                console.log(index);
                 let i = Math.floor(Math.random() * sound[index].length);
-                console.log(sound[index].length)
-                let m =  sound[index]
-                console.log(m)
+                let m = sound[index];
                 audios.push(m[i]);
-                console.log(m[i])
             }
         }
-        console.log("ciclato")        
     }
 
     var i = 1;
