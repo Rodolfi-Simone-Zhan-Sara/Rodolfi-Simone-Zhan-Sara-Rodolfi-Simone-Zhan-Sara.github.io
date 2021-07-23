@@ -7,7 +7,7 @@ function play(){
     const b = ["/risorse/B_bad.mp3", "/risorse/B_bocca.mp3", "/risorse/B_cassa.mp3", "/risorse/B_ospedale.mp3",
         "/risorse/B_robot.mp3", "/risorse/B_sveglia.mp3", "/risorse/B_uomo.mp3"];
     const sound = [a, b];
-    let text = "     a    bBAabababababbababakkkkkhhsdhfBbB          ";
+    let text = "     a    bBAabababababbababaBbB          ";
     text = text.trim();
     text = text.toLowerCase();
 
