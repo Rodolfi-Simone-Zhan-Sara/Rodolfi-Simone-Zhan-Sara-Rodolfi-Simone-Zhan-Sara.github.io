@@ -1,6 +1,6 @@
 function play(){
     var audios = [];
-    const alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","u","v","w","x","y","z"];
+    const alphabet = ["a","b"];
     const a = ["/risorse/A_ammirazione.mp3", "/risorse/A_baby.mp3", "/risorse/A_buo.mp3", "/risorse/A_buoo.mp3",
         "/risorse/A_cosa.mp3", "/risorse/A_dolore_disperazione.mp3", "/risorse/A_donna.mp3", "/risorse/A_uomo.mp3",
         "/risorse/A_urlo.mp3", "/risorse/A_voc.mp3", "/risorse/A_volpe.mp3"];
