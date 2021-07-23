@@ -18,8 +18,8 @@ function play(){
                 console.log(index);
                 let i = Math.floor(Math.random() * sound[index].length);
                 console.log(sound[index].length)
-                audios.push(sound[index[i]]);
-                console.log(a[i])
+                audios.push(sound[a[i]]);
+                console.log(sound[a[i]])
             }
         }
         console.log("ciclato")        
