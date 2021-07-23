@@ -54,15 +54,15 @@ function play(){
                 console.log(l);
                 let index = alphabet.indexOf(l);
                 let i = Math.floor(Math.random() * sound[index].length);
-                let m =  sound[index]
-                audios.push(m[i]);
-                console.log(m[i])
+                let list =  sound[index]
+                audios.push(list[i]);
+                console.log(list[i])
             }
         }
         console.log("ciclato")        
     }
 
-    var i = 1;
+    var index = 1;
 
     audio= new Audio(audios[0]);
     audio.play();
@@ -71,7 +71,7 @@ function play(){
         if(i < audios.length){
             audio.src=audios[i];
             audio.play();
-            i++;
+            index++;
         }
     }
 
