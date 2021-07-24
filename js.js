@@ -1,10 +1,10 @@
 function play(){
     var audios = [];
-    const eCommerciale = "/risorse/&_-.mp3";
-    const più = "/risorse/+++.mp3";
+    const eCommerciale = ["/risorse/&_-.mp3"];
+    const più = ["/risorse/+++.mp3"];
     const a = ["/risorse/A_ammirazione.mp3","/risorse/A_baby.mp3","/risorse/A_buo.mp3","/risorse/A_buoo.mp3","/risorse/A_cosa.mp3","/risorse/A_dolore_disperazione.mp3","/risorse/A_donna.mp3","/risorse/A_uomo.mp3","/risorse/A_urlo.mp3","/risorse/A_voc.mp3","/risorse/A_volpe.mp3"];
-    const è = "/risorse/Accento_E.mp3";
-    const ì = "/risorse/Accento_I.mp3";
+    const è = ["/risorse/Accento_E.mp3"];
+    const ì = ["/risorse/Accento_I.mp3"];
     const b = ["/risorse/B_bad.mp3","/risorse/B_bocca.mp3","/risorse/B_cassa.mp3","/risorse/B_ospedale.mp3","/risorse/B_robot.mp3","/risorse/B_sveglia.mp3","/risorse/B_uomo.mp3"];
     const c = ["/risorse/C_microfono.mp3","/risorse/C_nicki.mp3","/risorse/C_tosse.mp3","/risorse/C_uomo.mp3"];
     const d = ["/risorse/D_campana.mp3","/risorse/D_clarinetto.mp3","/risorse/D_piano.mp3","/risorse/D_treno.mp3","/risorse/D_uomo.mp3","/risorse/D_uomo.mp3","/risorse/D_zombie.mp3"];
@@ -22,7 +22,7 @@ function play(){
     const m = ["/risorse/M_buo.mp3","/risorse/M_canzone.mp3","/risorse/M_mucca1.mp3","/risorse/M_mucca2.mp3","/risorse/M_uomo.mp3"];
     const n = ["/risorse/N_donna.mp3","/risorse/N_no.mp3","/risorse/N_uomo.mp3","/risorse/N_voice.mp3"];
     const o = ["/risorse/O_baby.mp3","/risorse/O_buo.mp3","/risorse/O_errore.mp3","/risorse/O_metal.mp3","/risorse/O_paradiso.mp3","/risorse/O_rana.mp3","/risorse/O_uomo.mp3"];
-    const punto = "/risorse/PUNTO.mp3";
+    const punto = ["/risorse/PUNTO.mp3"];
     const p = ["/risorse/P_bambino.mp3","/risorse/P_donna.mp3","/risorse/P_forte.mp3","/risorse/P_period.mp3","/risorse/P_uomo.mp3"];
     const q = ["/risorse/Q_donna.mp3","/risorse/Q_orchestra.mp3","/risorse/Q_papera.mp3"];
     const r = ["/risorse/R_cardi.mp3","/risorse/R_papera.mp3","/risorse/R_rrr.mp3","/risorse/R_russo.mp3"];
@@ -30,21 +30,21 @@ function play(){
     const tilde = ["/risorse/TILDE.mp3", "/risorse/TILDE2.mp3", "/risorse/TILDE3.mp3"];
     const t = ["/risorse/T_depresso.mp3","/risorse/T_paradiso.mp3","/risorse/T_polizia.mp3","/risorse/T_sputo.mp3"];
     const u = ["/risorse/U_caduta.mp3","/risorse/U_cibo.mp3","/risorse/U_clarinetto.mp3","/risorse/U_giraffa.mp3","/risorse/U_musicale.mp3","/risorse/U_polizia.mp3","/risorse/U_sonno.mp3","/risorse/U_sorpreso.mp3","/risorse/U_video.mp3","/risorse/U_zanzara.mp3"];
-    const silenzio = "/risorse/VIRGOLA_SPAZIO_PUNTOVIRGOLA_DUEPUNTI.mp3";
+    const silenzio = ["/risorse/VIRGOLA_SPAZIO_PUNTOVIRGOLA_DUEPUNTI.mp3"];
     const v = ["/risorse/V_bimba.mp3","/risorse/V_have.mp3","/risorse/V_sound.mp3"];
     const w = ["/risorse/W_donna.mp3","/risorse/W_felice.mp3","/risorse/W_perche.mp3","/risorse/W_uomo.mp3","/risorse/W_vino.mp3"];
     const x = ["/risorse/X_aprire.mp3","/risorse/X_bambina.mp3","/risorse/X_eco.mp3"];
     const y = ["/risorse/Y_bambina.mp3","/risorse/Y_yellow.mp3"];
     const z = ["/risorse/Z_imita_zanzara.mp3","/risorse/Z_uomo.mp3","/risorse/Z_uomo2.mp3","/risorse/Z_voc.mp3","/risorse/Z_vocale.mp3"];
-    const virgolette = "/risorse/virgolette.mp3";
+    const virgolette = ["/risorse/virgolette.mp3"];
 
-    const alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","u","v","w","x","y","z",'""',","," ",";",":","~",".","£","€","$","!","?","ì","è","é","ù","ò","à","+","&","-"];
-    const sound = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, w, x, y, z,virgolette,silenzio,silenzio,silenzio,silenzio,tilde,punto,valuta,valuta,valuta,esclamativo,interrogativo,ì,è,è,u,o,a,più,eCommerciale,eCommerciale];
+    const alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","u","v","w","x","y","z",'"',","," ",";",":","~",".","£","€","$","!","?","ì","è","é","ù","ò","à","+","&","-"];
+    const sound = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z,virgolette,silenzio,silenzio,silenzio,silenzio,tilde,punto,valuta,valuta,valuta,esclamativo,interrogativo,ì,è,è,u,o,a,più,eCommerciale,eCommerciale];
 
     const egg = ["/risorse/Egg_ayayay.mp3","/risorse/Egg_bolle_bocca.mp3","/risorse/Egg_compleanno.mp3","/risorse/Egg_fortuna.mp3","/risorse/Egg_haha_canzone.mp3","/risorse/Egg_hehehe.mp3","/risorse/Egg_kling.mp3","/risorse/Egg_maialone_voc.mp3","/risorse/Egg_meditazione.mp3","/risorse/Egg_morte.mp3","/risorse/Egg_mostro.mp3","/risorse/Egg_natale.mp3","/risorse/Egg_orologio.mp3","/risorse/Egg_polizia_sirena.mp3","/risorse/Egg_rompiscatole.mp3","/risorse/Egg_tamburello.mp3","/risorse/Egg_ttt.mp3","/risorse/Egg_wow_donna.mp3","/risorse/Egg_www_uomo.mp3","/risorse/Egg_yay_funny.mp3","/risorse/Egg_ysml_song.mp3"];
     const egg_nome = ["ayayay","pop","compleanno","mi sento fortunato","sorridi","hehehe","pulito","sclero","meditazione","mood di oggi","studio","natale","tic tac","sirena","dolce armonia","tamburello","minigun","wow","www","yay","ysml"];
  
-    let text = "abcdjgahkjgfaj g";
+    let text = "abcdefghij klmno pqr stu vwxyz";
     text = text.trim();
     text = text.toLowerCase();
 
