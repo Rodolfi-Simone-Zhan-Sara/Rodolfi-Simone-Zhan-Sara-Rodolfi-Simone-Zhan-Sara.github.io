@@ -50,7 +50,7 @@ function play(){
     var ogniLettera = true
 
 
-    for (let e in egg_nome) {
+    for (let e of egg_nome) {
         console.log(e)
         if (text == e) {
             let index = egg_nome.indexOf(l);
