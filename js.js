@@ -53,10 +53,12 @@ function play(){
     for (let e of egg_nome) {
         console.log(e)
         if (text == e) {
-            let index = egg_nome.indexOf(l);
+            let index = egg_nome.indexOf(e);
+            console.log(egg[index])
             audios.push(egg[index])
             ogniLettera = false
             console.log("ciccio")
+            break
         }
     }
     
