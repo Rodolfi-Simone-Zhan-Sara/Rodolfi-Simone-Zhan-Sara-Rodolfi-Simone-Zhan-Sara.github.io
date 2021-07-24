@@ -15,7 +15,7 @@ function play(){
     const f = ["/risorse/F_aspirapolvere.mp3","/risorse/F_fischio.mp3","/risorse/F_tosse.mp3"];
     const g = ["/risorse/G_giao.mp3","/risorse/G_metal.mp3","/risorse/G_uomo.mp3"];
     const h = ["/risorse/H_catarro.mp3","/risorse/H_covid.mp3","/risorse/H_sorriso.mp3","/risorse/H_uomo.mp3"];
-    const i = ["/risorse/I_bambina.mp3","/risorse/I_cirillico.mp3","/risorse/I_meme.mp3","/risorse/I_paradiso.mp3","/risorse/I_rutto.mp3","/risorse/I_uccello.mp3","/risorse/I_uomo.mp3","/risorse/I_voc.mp3"];
+    const I = ["/risorse/I_bambina.mp3","/risorse/I_cirillico.mp3","/risorse/I_meme.mp3","/risorse/I_paradiso.mp3","/risorse/I_rutto.mp3","/risorse/I_uccello.mp3","/risorse/I_uomo.mp3","/risorse/I_voc.mp3"];
     const j = ["/risorse/J_basso.mp3","/risorse/J_francese.mp3","/risorse/J_sing.mp3","/risorse/J_uomo.mp3","/risorse/J_video.mp3"];
     const k = ["/risorse/K_papera.mp3","/risorse/K_pappagallo.mp3","/risorse/K_risata.mp3","/risorse/K_vino.mp3","/risorse/K_vocale.mp3"];
     const l = ["/risorse/L_acuto.mp3","/risorse/L_lazy.mp3","/risorse/L_meme.mp3"];
@@ -39,7 +39,7 @@ function play(){
     const virgolette = "/risorse/virgolette.mp3";
 
     const alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","u","v","w","x","y","z",'""',","," ",";",":","~",".","£","€","$","!","?","ì","è","é","ù","ò","à","+","&","-"];
-    const sound = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, w, x, y, z,virgolette,silenzio,silenzio,silenzio,silenzio,tilde,punto,valuta,valuta,valuta,esclamativo,interrogativo,ì,è,è,u,o,a,più,eCommerciale,eCommerciale];
+    const sound = [a, b, c, d, e, f, g, h, I, j, k, l, m, n, o, p, q, r, s, t, u, w, x, y, z,virgolette,silenzio,silenzio,silenzio,silenzio,tilde,punto,valuta,valuta,valuta,esclamativo,interrogativo,ì,è,è,u,o,a,più,eCommerciale,eCommerciale];
 
     const egg = ["/risorse/Egg_ayayay.mp3","/risorse/Egg_bolle_bocca.mp3","/risorse/Egg_compleanno.mp3","/risorse/Egg_fortuna.mp3","/risorse/Egg_haha_canzone.mp3","/risorse/Egg_hehehe.mp3","/risorse/Egg_kling.mp3","/risorse/Egg_maialone_voc.mp3","/risorse/Egg_meditazione.mp3","/risorse/Egg_morte.mp3","/risorse/Egg_mostro.mp3","/risorse/Egg_natale.mp3","/risorse/Egg_orologio.mp3","/risorse/Egg_polizia_sirena.mp3","/risorse/Egg_rompiscatole.mp3","/risorse/Egg_tamburello.mp3","/risorse/Egg_ttt.mp3","/risorse/Egg_wow_donna.mp3","/risorse/Egg_www_uomo.mp3","/risorse/Egg_yay_funny.mp3","/risorse/Egg_ysml_song.mp3"];
     const egg_nome = ["ayayay","pop","compleanno","mi sento fortunato","sorridi","hehehe","pulito","sclero","meditazione","mood di oggi","studio","natale","tic tac","sirena","dolce armonia","tamburello","minigun","wow","www","yay","ysml"];
@@ -62,17 +62,17 @@ function play(){
         console.log("ciclato")        
     }
 
-    var indice = 1;
+    var i = 1;
 
-    audio= new Audio(audios[0]);
+    audio= new Audio(audios[0])
     audio.play();
-
+    
     audio.onended = function() {
-        if(indice < audios.length){
-            audio.src = audios[i];
+        if(i < audios.length){
+            audio.src=audios[i];
             audio.play();
-            indice++;
+            i++;
         }
+    };
+    
     }
-
-}
