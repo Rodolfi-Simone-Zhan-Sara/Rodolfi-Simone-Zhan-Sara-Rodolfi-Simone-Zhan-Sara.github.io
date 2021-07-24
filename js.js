@@ -56,6 +56,7 @@ function play(){
             let index = egg_nome.indexOf(l);
             audios.push(egg[index])
             ogniLettera = false
+            console.log("ciccio")
         }
     }
     
