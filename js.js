@@ -44,7 +44,7 @@ function play(){
     const egg = ["/risorse/Egg_ayayay.mp3","/risorse/Egg_bolle_bocca.mp3","/risorse/Egg_compleanno.mp3","/risorse/Egg_fortuna.mp3","/risorse/Egg_haha_canzone.mp3","/risorse/Egg_hehehe.mp3","/risorse/Egg_kling.mp3","/risorse/Egg_maialone_voc.mp3","/risorse/Egg_meditazione.mp3","/risorse/Egg_morte.mp3","/risorse/Egg_mostro.mp3","/risorse/Egg_natale.mp3","/risorse/Egg_orologio.mp3","/risorse/Egg_polizia_sirena.mp3","/risorse/Egg_rompiscatole.mp3","/risorse/Egg_tamburello.mp3","/risorse/Egg_ttt.mp3","/risorse/Egg_wow_donna.mp3","/risorse/Egg_www_uomo.mp3","/risorse/Egg_yay_funny.mp3","/risorse/Egg_ysml_song.mp3"];
     const egg_nome = ["ayayay","pop","compleanno","mi sento fortunato","sorridi","hehehe","pulito","sclero","meditazione","mood di oggi","studio","natale","tic tac","sirena","dolce armonia","tamburello","minigun","wow","www","yay","ysml"];
  
-    let text = 'zzz", ;:~.£€$!èéùòà+&-';
+    let text = 'ciao simone è "bellissimo"';
     text = text.trim();
     text = text.toLowerCase();
 
