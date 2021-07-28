@@ -69,7 +69,7 @@ function play(){
                 if (e == l) {
                     let index = alphabet.indexOf(l);
                     let i = Math.floor(Math.random() * sound[index].length);
-                    let list =  sound[index]
+                    let list = sound[index]
                     audios.push(list[i]);
                 }
             }
@@ -78,7 +78,7 @@ function play(){
 
     var indice = 1;
 
-    audio= new Audio(audios[0]);
+    audio = new Audio(audios[0]);
     audio.play();
 
     audio.onended = function() {
