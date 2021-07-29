@@ -10,7 +10,6 @@ h1
 	margin: 2rem 0;
 	font-size: calc((4 - 1) * 1.2vh + 1rem);
 	line-height: 1.232;
-	font-weight: 500;
 	font-style: normal;
     letter-spacing: 0em;
 	margin-block-start: 1em;
@@ -19,8 +18,8 @@ h1
     margin-inline-end: 0px;
 	overflow-wrap: break-word;
 	font-family: lucida console;
+    font-weight: 500;
 	color: MistyRose;
-	top: 15%;
 	display: block;
 }
 
@@ -32,7 +31,6 @@ h2
 	word-wrap: break-word;
 	font-size: calc((1.6 - 1) * 1.2vh + 1rem);
 	line-height: 1.3664;
-    font-weight: 500;
     font-style: normal;
     letter-spacing: 0em;
     text-transform: none;
@@ -42,9 +40,8 @@ h2
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 	font-family: lucida console;
+    font-weight: 300;
 	color: MistyRose;
-	top: 5%;
-	display: block;
 }
 
 #elementi
