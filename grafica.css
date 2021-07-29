@@ -5,17 +5,12 @@ body
 
 h1
 {
-	white-space: pre-wrap;
 	margin-top: 0;
 	margin: 2rem 0;
 	font-size: calc((4 - 1) * 1.2vh + 1rem);
 	line-height: 1.232;
-	font-style: normal;
-    letter-spacing: 0em;
 	margin-block-start: 1em;
     margin-block-end: 1em;
-	margin-inline-start: 0px;
-    margin-inline-end: 0px;
 	overflow-wrap: break-word;
 	font-family: lucida console;
     font-weight: 500;
@@ -25,20 +20,12 @@ h1
 
 h2
 {
-	white-space: pre-wrap;
-	margin-bottom: 0;
 	margin: 2rem 0;
-	word-wrap: break-word;
 	font-size: calc((1.6 - 1) * 1.2vh + 1rem);
 	line-height: 1.3664;
-    font-style: normal;
-    letter-spacing: 0em;
-    text-transform: none;
 	text-align: left;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 	font-family: lucida console;
     font-weight: 300;
 	color: MistyRose;
@@ -54,8 +41,8 @@ h2
     margin-right: -17px;
 	width: auto;
 	display: block;
-
 }
+
 #sx
 {
 	width: 41.6667;
@@ -72,27 +59,39 @@ h2
     padding-top: 17px;
     padding-bottom: 17px;
 }
-h4
+
+#pulsanti
 {
-	margin: 2rem 0;
-	font-size: 50px;
-	text-align: right;
-	font-family: lucida console;
-	color: MistyRose;
-	top: 5%;
+	padding-bottom: 17px;
+	padding-left: 17px;
+    padding-right: 17px;
+	padding-top: 17px;
+    position: relative;
+	box-sizing: border-box;
+	display: block;
+	text-align: left;
 }
 
 textarea
 {
 	text-align: center;
+	font-size: calc((1 - 1) * 1.2vh + 1rem)
+
+}
+button
+{
+    margin: 1rem 0 0 0;
+	padding: .5rem .25rem .5rem 0;
+	font-size: calc((1 - 1) * 1.2vh + 1rem);
+	background-color: transparent
+
 }
 
 #vinile 
 {
+	float: left;
 	display: block;
-	margin: 0 auto;
-	position: fixed;
-	top: 15%;
-	right: 5%;
 	width: 35%;
+	padding-left: 17px;
+    padding-right: 17px;
 }
