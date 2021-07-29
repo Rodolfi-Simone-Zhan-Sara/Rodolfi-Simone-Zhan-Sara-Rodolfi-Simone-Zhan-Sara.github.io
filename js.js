@@ -49,7 +49,6 @@ function play(){
     text = text.toLowerCase();
     var ogniLettera = true
 
-
     for (let e of egg_nome) {
         if (text == e) {
             let index = egg_nome.indexOf(e);
@@ -58,7 +57,6 @@ function play(){
             break
         }
     }
-    
     
     if (ogniLettera == true) {
         for (let e of text) {
@@ -74,7 +72,6 @@ function play(){
     }
 
     var indice = 1;
-
     audio = new Audio(audios[0]);
     audio.play();
 
@@ -85,5 +82,4 @@ function play(){
             indice++;
         }
     }
-
 }
