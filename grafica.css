@@ -16,19 +16,21 @@ h1
     font-weight: 500;
 	color: MistyRose;
 	display: block;
+	word-wrap: break-word;
 }
 
 h2
 {
 	margin: 2rem 0;
 	font-size: calc((1.6 - 1) * 1.2vh + 1rem);
-	line-height: 1.3664;
+	line-height: 1px;
 	text-align: left;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
 	font-family: lucida console;
     font-weight: 300;
-	color: MistyRose;
+	color: white;
+	word-wrap: break-word;
 }
 
 #elementi
@@ -45,7 +47,7 @@ h2
 
 #sx
 {
-	width: 41.6667;
+	width: 41%;
     float: left;
 	display: block;
 }
