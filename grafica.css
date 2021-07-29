@@ -10,7 +10,6 @@ h1
 	line-height: 1.232;
 	margin-block-start: 1em;
     margin-block-end: 1em;
-	overflow-wrap: break-word;
 	font-family: lucida console;
     font-weight: 500;
 	color: MistyRose;
@@ -23,7 +22,6 @@ h2
 	font-size: calc((1.6 - 1) * 1.2vh + 1rem);
 	line-height: 1.232;
 	text-align: left;
-	overflow-wrap: break-word;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
 	font-family: lucida console;
@@ -87,7 +85,7 @@ button
 
 #vinile 
 {
-	float: left;
+	float: right;
 	display: block;
 	width: 35%;
 	padding-left: 17px;
