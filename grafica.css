@@ -5,7 +5,6 @@ body
 
 h1
 {
-	margin-top: 0;
 	margin: 2rem 0;
 	font-size: calc((4 - 1) * 1.2vh + 1rem);
 	line-height: 1.232;
@@ -16,21 +15,20 @@ h1
     font-weight: 500;
 	color: MistyRose;
 	display: block;
-	word-wrap: break-word;
 }
 
 h2
 {
 	margin: 2rem 0;
 	font-size: calc((1.6 - 1) * 1.2vh + 1rem);
-	line-height: 1px;
+	line-height: 1.232;
 	text-align: left;
+	overflow-wrap: break-word;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
 	font-family: lucida console;
     font-weight: 300;
 	color: white;
-	word-wrap: break-word;
 }
 
 #elementi
@@ -77,16 +75,14 @@ h2
 textarea
 {
 	text-align: center;
-	font-size: calc((1 - 1) * 1.2vh + 1rem)
-
+	font-size: calc((1 - 1) * 1.2vh + 1rem);
 }
 button
 {
     margin: 1rem 0 0 0;
 	padding: .5rem .25rem .5rem 0;
 	font-size: calc((1 - 1) * 1.2vh + 1rem);
-	background-color: transparent
-
+	background-color: transparent;
 }
 
 #vinile 
