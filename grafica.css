@@ -1,13 +1,16 @@
 body
 {
-	background-image: url("/risorse/background.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
+	background-color: #a8b2be
 }
 
 textarea
 {
 	text-align: center;
+}
+
+#vinile 
+{
+	display: block;
+	margin: 0 auto;
+	position: right center;
 }
