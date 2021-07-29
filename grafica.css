@@ -12,5 +12,8 @@ textarea
 {
 	display: block;
 	margin: 0 auto;
-	position: right center;
+	position: fixed;
+	top: 40%;
+	right: 25%;
+	width: 40%;
 }
