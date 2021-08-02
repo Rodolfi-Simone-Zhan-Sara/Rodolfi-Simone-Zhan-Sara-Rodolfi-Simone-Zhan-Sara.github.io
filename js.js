@@ -20,7 +20,7 @@ function play(){
 		const ì = ["/risorse/Accento_I.mp3"];
 		const b = ["/risorse/B_bad.mp3","/risorse/B_bocca.mp3","/risorse/B_cassa.mp3","/risorse/B_ospedale.mp3","/risorse/B_robot.mp3","/risorse/B_sveglia.mp3","/risorse/B_uomo.mp3"];
 		const c = ["/risorse/C_microfono.mp3","/risorse/C_nicki.mp3","/risorse/C_tosse.mp3","/risorse/C_uomo.mp3"];
-		const d = ["/risorse/D_campana.mp3","/risorse/D_clarinetto.mp3","/risorse/D_piano.mp3","/risorse/D_treno.mp3","/risorse/D_uomo.mp3","/risorse/D_uomo.mp3","/risorse/D_zombie.mp3"];
+		const d = ["/risorse/D_campana.mp3","/risorse/D_clarinetto.mp3","/risorse/D_piano.mp3","/risorse/D_treno.mp3","/risorse/D_uomo.mp3","/risorse/D_zombie.mp3"];
 		const e = ["/risorse/E_lungo.mp3","/risorse/E_metal.mp3","/risorse/E_panda.mp3","/risorse/E_pecora.mp3","/risorse/E_robot.mp3","/risorse/E_scam.mp3","/risorse/E_voc.mp3"];
 		const interrogativo = ["/risorse/DOMANDA.mp3","/risorse/DOMANDA2.mp3","/risorse/DOMANDA3.mp3","/risorse/DOMANDA4.mp3","/risorse/DOMANDA5.mp3","/risorse/DOMANDA6.mp3"];
 		const esclamativo = ["/risorse/ESCLAMAZIONE1.mp3","/risorse/ESCLAMAZIONE2.mp3"];
