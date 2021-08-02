@@ -4,6 +4,8 @@ function play(){
     if(click==1){
 		click = 0;
 		console.log("ffffff");
+		console.log(indice,click);
+		audio.pause();
 	}
 	if (click == 0){
 		click++
