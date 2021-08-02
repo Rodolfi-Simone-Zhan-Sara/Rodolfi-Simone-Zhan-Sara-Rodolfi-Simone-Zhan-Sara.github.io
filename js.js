@@ -1,4 +1,4 @@
-var indice = 0;
+var indice = 1000000;
 var click = 0;
 function play(){
     if(click==1){
