@@ -6,7 +6,7 @@ body
 h1
 {
 	margin: 20px;
-	font-size: 70px;
+	font-size: 100px;
 	line-height: 1.232;
 	font-family: "Merienda";
     font-weight: 500;
@@ -17,7 +17,7 @@ h1
 h2
 {
 	margin: 20px;
-	font-size: 20px;
+	font-size: 25px;
 	line-height: 1.232;
 	text-align: left;
 	font-family: "Merienda";
@@ -27,38 +27,47 @@ h2
 h3
 {
 	margin: 5px;
-	font-size: 13px;
+	font-size: 20px;
 	line-height: 1.232;
 	text-align: left;
 	font-family: "Merienda";
     font-weight: 300;
 	color: white;
 }
-
-
+#sx
+{
+	width: 43%;
+    float: left;
+	display: block;
+	margin-top: 17px
+}
 input
 {
 	text-align: center;
-	font-size: 10px;
+	font-size: 20px;
 	height: 25px;
 	font-family: "Merienda";
     font-weight: 300;
-	color: white;
+	color: black;
 }
-#button
+#bottone
 {
-    margin: 10px;
-	padding: 5px;
-	font-size: 7px;
-	border-width:5px;
+	font-size: 20px;
+	border:2px solid black;
 	background-color: transparent;
 	font-family: "Merienda";
     font-weight: 300;
 	color: white;
-}
+	width: 60px;
+    float: left;
+	margin-left:17px;
+	margin-right: 10px;
+    padding: 1px;
+    text-align: center;}
 
 #vinile 
 {
+	margin-top: 17px;
 	float: right;
 	display: block;
 	width: 50%;
