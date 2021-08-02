@@ -1,14 +1,16 @@
-var indice = 1000000;
+var indice = 0;
+var indiceReal = 0
 var click = 0;
 function play(){
     if(click==1){
 		click = 0;
 		console.log("ffffff");
-		console.log(indice,click);
-		zitto = new Audio("/risorse/VIRGOLA_SPAZIO_PUNTOVIRGOLA_DUEPUNTI.mp3");
-		zitto.play();
+		console.log(indice,click, indiceReal);
+		indiceReal = indice
+		indice = -2
 	}
 	else{
+		indice = indiceReal
 		click++
 		var audios = [];
 		const eCommerciale = ["/risorse/&_-.mp3"];
@@ -82,19 +84,19 @@ function play(){
 			}
 		}
 
-		audio = new Audio(audios[indice]);
-		indice++;
-		audio.play();
 
-		audio.onended = function() {
-			if(indice < audios.length){
-				audio.src = audios[indice];
-				audio.play();
-				indice++;
-			}
-			else{
-				indice = 0;
-			}
-		}
 	}
+	audio = new Audio(audios[indice]);
+	indice++;
+	audio.play();
+	audio.onended = function() {
+		if(indice < audios.length){
+			audio.src = audios[indice];
+			audio.play();
+			indice++;
+		}
+		else{
+			indice = 0;
+		}
+	}	
 }
