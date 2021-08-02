@@ -2,14 +2,7 @@ var indice = 0;
 var indiceReal = 0
 var click = 0;
 function play(){
-    if(click==1){
-		click = 0;
-		console.log("ffffff");
-		console.log(indice,click, indiceReal);
-		indiceReal = indice
-		indice = 2
-	}
-	else{
+
 		indice = indiceReal
 		click++
 		var audios = [];
@@ -85,7 +78,6 @@ function play(){
 		}
 
 
-	}
 	audio = new Audio(audios[indice]);
 	indice++;
 	audio.play();
