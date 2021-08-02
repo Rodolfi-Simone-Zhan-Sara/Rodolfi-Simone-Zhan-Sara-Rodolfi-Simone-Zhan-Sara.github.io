@@ -1,9 +1,12 @@
+var indice = 0;
+var click = 0;
 function play(){
-	var pause = false
-	if (pause){
-		audios.pause()
+    if(click==1){
+		click = 0;
+		console.log("ffffff");
 	}
-	else{
+	if (click == 0){
+		click++
 		var audios = [];
 		const eCommerciale = ["/risorse/&_-.mp3"];
 		const più = ["/risorse/+++.mp3"];
@@ -76,7 +79,6 @@ function play(){
 			}
 		}
 
-		var indice = 0;
 		audio = new Audio(audios[indice]);
 		indice++;
 		audio.play();
@@ -86,6 +88,9 @@ function play(){
 				audio.src = audios[indice];
 				audio.play();
 				indice++;
+			}
+			else{
+				indice = 0;
 			}
 		}
 	}
