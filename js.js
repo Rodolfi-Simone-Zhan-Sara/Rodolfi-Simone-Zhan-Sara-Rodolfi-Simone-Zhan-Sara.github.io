@@ -5,9 +5,10 @@ function play(){
 		click = 0;
 		console.log("ffffff");
 		console.log(indice,click);
-		audio.pause();
+		zitto = new Audio("/risorse/VIRGOLA_SPAZIO_PUNTOVIRGOLA_DUEPUNTI.mp3");
+		zitto.play();
 	}
-	if (click == 0){
+	else(click == 0){
 		click++
 		var audios = [];
 		const eCommerciale = ["/risorse/&_-.mp3"];
