@@ -8,7 +8,7 @@ function play(){
 		zitto = new Audio("/risorse/VIRGOLA_SPAZIO_PUNTOVIRGOLA_DUEPUNTI.mp3");
 		zitto.play();
 	}
-	else(click == 0){
+	else{
 		click++
 		var audios = [];
 		const eCommerciale = ["/risorse/&_-.mp3"];
