@@ -96,7 +96,7 @@ function play(){
 			indice++;
 		}
 		else{
-			indice = 0;
+			indiceReal = 0;
 			click = 0;
 		}
 	}	
