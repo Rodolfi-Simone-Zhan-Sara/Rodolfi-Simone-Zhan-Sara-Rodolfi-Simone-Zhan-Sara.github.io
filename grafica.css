@@ -81,7 +81,6 @@ input
 {
 	float: right;
 	display: block;
-	width: 90%;
-	margin-top: 8px;
-	margin-right: 30px;
+	width: auto;
+	margin-right: 70px;
 }
