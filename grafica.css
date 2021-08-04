@@ -78,9 +78,9 @@ input
 }
 
 #audio
-{
+{	position:absolute;
 	display: block;
 	width: 40px;
-	top:15px;
+	top: 10px;
 	right: 100px;
 }
