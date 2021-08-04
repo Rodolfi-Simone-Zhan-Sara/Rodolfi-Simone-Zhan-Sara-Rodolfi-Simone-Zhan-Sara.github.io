@@ -79,8 +79,8 @@ input
 
 #audio
 {
-	float: right;
 	display: block;
-	width: 30px;
-	margin-right: 200px;
+	width: 40px;
+	top:15px;
+	right: 100px;
 }
