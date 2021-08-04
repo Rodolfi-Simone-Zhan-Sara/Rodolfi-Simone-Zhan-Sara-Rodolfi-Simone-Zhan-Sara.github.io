@@ -7,7 +7,7 @@ function play(){
 		console.log("ffffff");
 		console.log(indice,click, indiceReal);
 		indiceReal = indice
-		indice = 2
+		indice = -2
 	}
 	else{
 		indice = indiceReal
@@ -97,6 +97,7 @@ function play(){
 		}
 		else{
 			indice = 0;
+			click = 0;
 		}
 	}	
 }
