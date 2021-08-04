@@ -76,3 +76,12 @@ input
     min-width: 300px;
     margin: 50px;
 }
+
+#audio
+{
+	float: right;
+	display: block;
+	width: 90%;
+	margin-top: 8px;
+	margin-right: 30px;
+}
