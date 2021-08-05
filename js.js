@@ -8,7 +8,7 @@ function play(){
 		console.log(indice,click, indiceReal);
 		indiceReal = indice
 		audio.pause()
-		document.getElementById("vinile").src = "/risorse/vinile";
+		document.getElementById("vinile").src = "/risorse/vinile.png";
 	}
 	else{
 		document.getElementById("vinile").src = "https://media1.tenor.com/images/3d3e0a53c3da9e38986c755211fbe1a9/tenor.gif";
@@ -100,7 +100,7 @@ function play(){
 		else{
 			indiceReal = 0;
 			click = 0;
-			document.getElementById("vinile").src = "/risorse/vinile";
+			document.getElementById("vinile").src = "/risorse/vinile.png";
 		}
 	}	
 }
