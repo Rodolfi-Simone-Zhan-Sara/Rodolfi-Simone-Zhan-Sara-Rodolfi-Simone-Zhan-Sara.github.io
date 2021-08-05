@@ -8,6 +8,7 @@ function play(){
 		console.log(indice,click, indiceReal);
 		indiceReal = indice
 		audio.stop()
+		document.getElementById("vinile").src = 
 	}
 	else{
 		indice = indiceReal
