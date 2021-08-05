@@ -5,10 +5,11 @@ var time = 0;
 function play(){
     if(click==1){
 		click = 0;
-		console.log("ffffff");
-		console.log(indice,click, indiceReal);
 		indiceReal = indice
+		console.log(time)
+		console.log(audio.currentTime);
 		time = audio.currentTime;
+		console.log(time)
 		audio.pause();
 		document.getElementById("vinile").src = "/risorse/vinile.png";
 	}
@@ -92,8 +93,11 @@ function play(){
 	}
 	audio = new Audio(audios[indice]);
 	indice++;
-	audio.currentTime=time;
+	console.log(time)
+
 	audio.play();
+	audio.currentTime = time;
+	console.log(audio.currentTime)
 	time = 0;
 	audio.onended = function() {
 		if(indice < audios.length){
