@@ -42,20 +42,17 @@
     text-align: center;}
 
 .p-p1 {
-    color: #000;
     display: block;
     font-family: Sylfaen, serif;
     font-size: 1.125em;
     line-height: 1.2;}
 
 .p-p2 {
-    color: #000;
     display: block;
     font-family: "Times New Roman", serif;
     font-size: 1em;}
 
 .p-p3 {
-    color: #000;
     display: block;
     font-family: Sylfaen, serif;
     font-size: 1em;
@@ -124,14 +121,6 @@
     font-size: 1em;
     line-height: 1.2;}
 
-.p-p16 {
-    background-color: #ff0;
-    color: #000;
-    display: block;
-    font-family: Caladea, serif;
-    font-size: 1em;
-    line-height: 150%;}
-
 .p-p17 {
     color: #000;
     display: block;
@@ -168,21 +157,6 @@
     line-height: 1.2;
     margin-bottom: 0;
     margin-top: 0;}
-
-.p-p22 {
-    color: #000;
-    display: block;
-    font-family: "Courier New", monospace;
-    font-size: 0.75em;
-    line-height: 115%;
-    margin-left: 0.101cm;}
-
-.p-p24 {
-    color: #000;
-    display: block;
-    font-family: "Courier New", monospace;
-    font-size: 0.75em;
-    line-height: 115%;}
 
 .p-p25 {
     display: block;
@@ -238,14 +212,6 @@
     margin-bottom: 0;
     margin-top: 0;}
 
-.p-p32 {
-    color: #000;
-    display: block;
-    font-family: "Courier New", monospace;
-    font-size: 0.58333em;
-    font-weight: bold;
-    line-height: 150%;}
-
 .p-p33 {
     color: #000;
     display: block;
@@ -255,15 +221,7 @@
     font-weight: bold;
     line-height: 115%;}
 
-.p-p34 {
-    background-color: #ff0;
-    color: #000;
-    display: block;
-    font-family: "Mongolian Baiti", monospace;
-    font-size: 1em;
-    line-height: 1.2;}
 .p-p35 {
-    
     color: #000;
     display: block;
     font-family: "Mongolian Baiti", monospace;
@@ -326,6 +284,12 @@
     font-size: 1em;
     line-height: 1.2;}
 
+.s-t2 {font-size: 0.71em;}
+
+.s-t3 {font-size: 0.65em;}
+
+.s-t4 {font-size: 0.60em;}
+
 .s-t5 {
     font-family: Sylfaen, serif;
     font-size: 1em;
@@ -367,9 +331,9 @@
 
 .s-t17 {
     font-family: Caladea, serif;
-    font-size: 0.75em;}
+    font-size: 0.95em;}
 
-.s-t18 {font-size: 0.58333em;}
+.s-t18 {font-size: 0.58em;}
 
 .s-t19 {
     color: #000;
@@ -390,7 +354,7 @@
 
 .s-t23 {
     font-family: "Segoe UI Black", sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
     line-height: 1.2;}
 
 .s-t24 {
@@ -489,7 +453,7 @@
 
 .s-t50 {
     font-family: "Mongolian Baiti", monospace;
-    font-size: 1.66667em;
+    font-size: 1.3em;
     line-height: 1.2;}
 
 .s-t51 {
