@@ -162,11 +162,12 @@
     margin-left: 0.22cm;}
 
 .p-p21 {
-    color: #000;
     display: block;
     font-family: "Courier New", monospace;
     font-size: 0.75em;
-    line-height: 1.2;}
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 0;}
 
 .p-p22 {
     color: #000;
@@ -175,13 +176,6 @@
     font-size: 0.75em;
     line-height: 115%;
     margin-left: 0.101cm;}
-
-.p-p23 {
-    color: #000;
-    display: block;
-    font-family: "Courier New", monospace;
-    font-size: 0.75em;
-    line-height: 1.2;}
 
 .p-p24 {
     color: #000;
@@ -205,11 +199,11 @@
     line-height: 1.2;}
 
 .p-p27 {
-    color: #000;
     display: block;
     font-family: "Courier New", monospace;
-    font-size: 0.41667em;
-    font-style: normal;}
+    font-size: 0.4em;
+    margin-bottom: 0;
+    margin-top: 0;}
 
 .p-p28 {
     color: #000;
@@ -236,12 +230,13 @@
     margin-right: 0.101cm;}
 
 .p-p31 {
-    color: #000;
     display: block;
     font-family: "Courier New", monospace;
-    font-size: 0.58333em;
+    font-size: 0.58em;
     font-weight: bold;
-    line-height: 1.2;}
+    line-height: 1.3;
+    margin-bottom: 0;
+    margin-top: 0;}
 
 .p-p32 {
     color: #000;
@@ -329,24 +324,6 @@
 .s-t1 {
     font-family: Sylfaen, serif;
     font-size: 1em;
-    line-height: 1.2;}
-
-.s-t2 {
-    font-family: "DejaVu Serif", serif;
-    font-size: 1.41667em;
-    font-style: italic;
-    line-height: 1.2;}
-
-.s-t3 {
-    font-family: "DejaVu Serif", serif;
-    font-size: 1.41667em;
-    font-style: normal;
-    line-height: 1.2;}
-
-.s-t4 {
-    font-family: Sylfaen, serif;
-    font-size: 1.125em;
-    font-style: normal;
     line-height: 1.2;}
 
 .s-t5 {
