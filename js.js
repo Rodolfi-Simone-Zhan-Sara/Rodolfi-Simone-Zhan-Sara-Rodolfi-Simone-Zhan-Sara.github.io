@@ -7,12 +7,13 @@ function play(){
 		console.log("ffffff");
 		console.log(indice,click, indiceReal);
 		indiceReal = indice
-		audio.stop()
-		document.getElementById("vinile").src = 
+		audio.pause()
+		document.getElementById("vinile").src = "/risorse/vinile";
 	}
 	else{
-		indice = indiceReal
-		click++
+		document.getElementById("vinile").src = "https://media1.tenor.com/images/3d3e0a53c3da9e38986c755211fbe1a9/tenor.gif";
+		indice = indiceReal;
+		click++;
 		var audios = [];
 		const eCommerciale = ["/risorse/&_-.mp3"];
 		const più = ["/risorse/+++.mp3"];
@@ -99,6 +100,7 @@ function play(){
 		else{
 			indiceReal = 0;
 			click = 0;
+			document.getElementById("vinile").src = "/risorse/vinile";
 		}
 	}	
 }
