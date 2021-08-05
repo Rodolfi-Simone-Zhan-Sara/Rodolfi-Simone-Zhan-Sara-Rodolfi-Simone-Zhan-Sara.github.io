@@ -7,7 +7,7 @@ function play(){
 		console.log("ffffff");
 		console.log(indice,click, indiceReal);
 		indiceReal = indice
-		indice = -2
+		audio.stop()
 	}
 	else{
 		indice = indiceReal
