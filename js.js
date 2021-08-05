@@ -8,7 +8,7 @@ function play(){
 		console.log("ffffff");
 		console.log(indice,click, indiceReal);
 		indiceReal = indice
-		audio.currentTime=time;
+		time = audio.currentTime;
 		audio.pause();
 		document.getElementById("vinile").src = "/risorse/vinile.png";
 	}
