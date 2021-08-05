@@ -231,13 +231,13 @@
     line-height: 150%;}
 
 .p-p36 {
-    color: #000;
     display: block;
     font-family: "Courier New", monospace;
     font-size: 0.41667em;
-    font-style: normal;
     font-weight: bold;
-    margin-left: 1.251cm;}
+    margin-bottom: 0;
+    margin-left: 1.251cm;
+    margin-top: 0;}
 
 .p-p37 {
     color: #000;
