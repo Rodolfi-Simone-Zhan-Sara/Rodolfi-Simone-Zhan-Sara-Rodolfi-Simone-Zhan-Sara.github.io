@@ -1,13 +1,15 @@
 var indice = 0;
 var indiceReal = 0
 var click = 0;
+var time = 0;
 function play(){
     if(click==1){
 		click = 0;
 		console.log("ffffff");
 		console.log(indice,click, indiceReal);
 		indiceReal = indice
-		audio.pause()
+		audio.currentTime=time;
+		audio.pause();
 		document.getElementById("vinile").src = "/risorse/vinile.png";
 	}
 	else{
@@ -90,7 +92,9 @@ function play(){
 	}
 	audio = new Audio(audios[indice]);
 	indice++;
+	audio.currentTime=time;
 	audio.play();
+	time = 0;
 	audio.onended = function() {
 		if(indice < audios.length){
 			audio.src = audios[indice];
