@@ -65,6 +65,7 @@ function play(){
 		var ogniLettera = true
 		
 		if (testoReale != testo){
+			testo = testoReale
 			indice = 0
 			console.log("giggio")
 			for (let e of egg_nome) {
