@@ -60,13 +60,13 @@ input
 	font-family: "Merienda";
     font-weight: 300;
 	color: white;
-	width: 60px;
+	line-height: 2;
     float: left;
 	margin-left:17px;
 	margin-right: 10px;
-    padding: 1px;
     text-align: center;
-    cursor: pointer;}
+    cursor: pointer;
+}
 
 #vinile 
 {

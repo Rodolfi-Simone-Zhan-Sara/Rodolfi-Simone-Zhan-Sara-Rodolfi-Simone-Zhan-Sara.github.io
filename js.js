@@ -65,15 +65,16 @@ function play(){
 		var ogniLettera = true
 		
 		if (testoReale != testo){
-			testo = testoReale
-			indice = 0
-			console.log("giggio")
+			audios = [];
+			testo = testoReale;
+			indice = 0;
+			console.log("giggio");
 			for (let e of egg_nome) {
 				if (testo == e) {
 					let index = egg_nome.indexOf(e);
-					audios.push(egg[index])
-					ogniLettera = false
-					break
+					audios.push(egg[index]);
+					ogniLettera = false;
+					break;
 				}
 			}
 			
@@ -83,7 +84,7 @@ function play(){
 						if (e == l) {
 							let index = alphabet.indexOf(l);
 							let i = Math.floor(Math.random() * sound[index].length);
-							let list = sound[index]
+							let list = sound[index];
 							audios.push(list[i]);
 						}
 					}
@@ -92,11 +93,9 @@ function play(){
 		}
 	}
 	audio = new Audio(audios[indice]);
-	console.log(time)
 
 	audio.play();
 	audio.currentTime = time;
-	console.log(audio.currentTime)
 	time = 0;
 	audio.onended = function() {
 		if(indice+1 < audios.length){
