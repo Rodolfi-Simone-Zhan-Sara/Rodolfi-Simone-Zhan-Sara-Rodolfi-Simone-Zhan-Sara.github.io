@@ -2,12 +2,12 @@
     margin-bottom: 5pt;
     margin-top: 5pt}
 
-.home {	
+#home {	
     position: fixed;
     display: block;
     width: 30px;
     top: 10px;
-    right: 40px;}
+    right: 30px;}
 
 .calibre1 {
     display: block;
