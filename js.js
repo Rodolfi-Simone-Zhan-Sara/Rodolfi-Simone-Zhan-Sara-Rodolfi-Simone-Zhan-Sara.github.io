@@ -2,6 +2,7 @@ var indice = 0;
 var click = 0;
 var time = 0;
 var testoPrima = "";
+var audios = [];
 function play(){
     if(click==1){
 		click = 0;
@@ -19,7 +20,7 @@ function play(){
 			indice = 0;
 			testoPrima = text;
 			var ogniLettera = true;
-			var audios = [];
+			audios = []
 			const eCommerciale = ["/risorse/&_-.mp3"];
 			const più = ["/risorse/+++.mp3"];
 			const a = ["/risorse/A_ammirazione.mp3","/risorse/A_baby.mp3","/risorse/A_buo.mp3","/risorse/A_buoo.mp3","/risorse/A_cosa.mp3","/risorse/A_dolore_disperazione.mp3","/risorse/A_donna.mp3","/risorse/A_uomo.mp3","/risorse/A_urlo.mp3","/risorse/A_voc.mp3","/risorse/A_volpe.mp3"];
