@@ -1,28 +1,23 @@
 var indice = 0;
-var indiceReal = 0
 var click = 0;
 var time = 0;
 var testoPrima = "";
 function play(){
     if(click==1){
 		click = 0;
-		indiceReal = indice
-		console.log(time)
-		console.log(audio.currentTime);
 		time = audio.currentTime;
-		console.log(time)
 		audio.pause();
 		document.getElementById("vinile").src = "/risorse/vinile.png";
 	}
 	else{
 		document.getElementById("vinile").src = "https://media1.tenor.com/images/3d3e0a53c3da9e38986c755211fbe1a9/tenor.gif";
-		indice = indiceReal;
 		click++;
 		let text = document.getElementById("myText").value;
 		text = text.trim();
 		text = text.toLowerCase();
 		if (testoPrima != text){
-			text = testoPrima;
+			indice = 0;
+			testoPrima = text;
 			var ogniLettera = true;
 			var audios = [];
 			const eCommerciale = ["/risorse/&_-.mp3"];
@@ -71,7 +66,7 @@ function play(){
 		 
 
 			for (let e of egg_nome) {
-				if (text == e) {
+				if (testoPrima == e) {
 					let index = egg_nome.indexOf(e);
 					audios.push(egg[index])
 					ogniLettera = false
@@ -80,7 +75,7 @@ function play(){
 			}
 			
 			if (ogniLettera == true) {
-				for (let e of text) {
+				for (let e of testoPrima) {
 					for(let l of alphabet) {
 						if (e == l) {
 							let index = alphabet.indexOf(l);
@@ -92,25 +87,21 @@ function play(){
 				}
 			}
 		}
-
-	}
-	audio = new Audio(audios[indice]);
-	console.log(time)
-
-	audio.play();
-	audio.currentTime = time;
-	console.log(audio.currentTime)
-	time = 0;
-	audio.onended = function() {
-		if(indice+1 < audios.length){
-			indice++;
-			audio.src = audios[indice];
-			audio.play();
-		}
-		else{
-			indiceReal = 0;
-			click = 0;
-			document.getElementById("vinile").src = "/risorse/vinile.png";
+		audio = new Audio(audios[indice]);
+		audio.play();
+		audio.currentTime = time;
+		time = 0;
+		audio.onended = function() {
+			if(indice+1 < audios.length){
+				indice++;
+				audio.src = audios[indice];
+				audio.play();
+			}
+			else{
+				indice = 0;
+				click = 0;
+				document.getElementById("vinile").src = "/risorse/vinile.png";
+			}
 		}
 	}	
 }
