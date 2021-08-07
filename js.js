@@ -66,6 +66,7 @@ function play(){
 		
 		if (testoReale != testo){
 			indice = 0
+			console.log("giggio")
 			for (let e of egg_nome) {
 				if (testo == e) {
 					let index = egg_nome.indexOf(e);
