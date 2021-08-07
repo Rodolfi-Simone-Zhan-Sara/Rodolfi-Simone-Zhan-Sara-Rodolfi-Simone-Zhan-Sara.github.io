@@ -18,6 +18,28 @@ p{
 	font-size: 1em;
 	text-align: justify
 }
+#A1 {font-size: 0.8em;}
+#A2 {font-size: 0.7em;}
+#A3 {font-size: 0.60em;}
+#A4 {font-size: 0.5em;}
+#bolle {
+    font-family: SimSun, sans-serif;
+    line-height: 1.2;
+}
+.YaHei {font-family: "Microsoft YaHei", sans-serif;}
+#fischio {
+	font-size: 0.58333em;
+	vertical-align: 33%
+}
+.disegni{
+	font-family: "Courier New", monospace;
+	font-family: 0.4em;
+	font-weight: bold;
+	margin-left: 1.25cm;
+	
+}
+
+
 #home {	
     position:absolute;
     display: block;
@@ -47,11 +69,6 @@ p{
     font-size: 1em;
     line-height: 1.2;}
 
-.s-t2 {font-size: 0.8em;}
-
-.s-t3 {font-size: 0.7em;}
-
-.s-t4 {font-size: 0.60em;}
 
 .s-t5 {
     font-family: Sylfaen, serif;
@@ -96,7 +113,7 @@ p{
     font-family: Caladea, serif;
     font-size: 0.95em;}
 
-.s-t18 {font-size: 0.5em;}
+
 
 .s-t19 {
     color: #000;
@@ -111,9 +128,7 @@ p{
     background-color: #ff0;
     line-height: 1.2;}
 
-.s-t22 {
-    font-family: SimSun, sans-serif;
-    line-height: 1.2;}
+
 
 .s-t23 {
     font-family: "Segoe UI Black", sans-serif;
@@ -149,11 +164,7 @@ p{
     font-size: 1em;
     line-height: 1.2;}
 
-.s-t31 {
-    color: #000;
-    font-family: "Microsoft YaHei", sans-serif;
-    font-size: 0.75em;
-    font-style: normal;}
+
 
 .s-t32 {
     color: #000;
@@ -211,7 +222,7 @@ p{
     font-size: 1.41667em;
     line-height: 1.2;}
 
-.s-t47 {font-size: 0.58333em; vertical-align: 33%}
+
 
 .s-t48 {font-family: "Segoe UI Symbol", sans-serif;}
 
