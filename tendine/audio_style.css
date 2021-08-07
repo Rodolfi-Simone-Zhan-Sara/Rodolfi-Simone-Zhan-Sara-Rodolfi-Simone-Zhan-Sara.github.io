@@ -1,6 +1,5 @@
 @page {
-    margin-bottom: 5pt;
-    margin-top: 5pt
+	padding: 5px;
 }
 
 body{
@@ -18,439 +17,67 @@ p{
 	font-size: 1em;
 	text-align: justify
 }
-#A1 {font-size: 0.8em;}
-#A2 {font-size: 0.7em;}
-#A3 {font-size: 0.60em;}
+
+.A1 {font-size: 0.8em;}
+
+.A2 {font-size: 0.7em;}
+
+.A3 {font-size: 0.60em;}
+
 #A4 {font-size: 0.5em;}
+
 #bolle {
     font-family: SimSun, sans-serif;
     line-height: 1.2;
 }
-.YaHei {font-family: "Microsoft YaHei", sans-serif;}
+
+#YaHei {font-family: "Microsoft YaHei", sans-serif;}
+
 #fischio {
 	font-size: 0.58333em;
 	vertical-align: 33%
 }
+
 .disegni{
 	font-family: "Courier New", monospace;
 	font-family: 0.4em;
-	font-weight: bold;
 	margin-left: 1.25cm;
-	
+	line-height: 3px;	
 }
 
+#x3 {font-size: 0.75em;}
+
+#rrr {
+    font-family: Symbol, serif;
+    font-style: italic;
+}
+
+#musica {font-family: "Segoe MDL2 Assets", sans-serif;}
+
+#peace_signe {font-family: "Segoe UI Emoji", sans-serif;}
+
+#smile {font-family: "Segoe MDL2 Assets", sans-serif;}
+
+#gatto {font-family: "Microsoft New Tai Lue", sans-serif;}
 
 #home {	
     position:fixed;
     display: block;
     width: 30px;
     top: 10px;
-    right: 20px;}
-
-.calibre1 {
-    display: block;
-    font-size: 1em;
-    margin-left: 5pt;
-    margin-right: 5pt;}
-    
-.g-gr1 {
-    display: block;
-    float: left;
-    font-size: 0.88889em;
-    height: 0.041cm;
-    left: 30.702cm;
-    position: relative;
-    width: 0.041cm}
-
-.s-t {line-height: 1.2;}
-
-.s-t1 {
-    font-family: Sylfaen, serif;
-    font-size: 1em;
-    line-height: 1.2;}
-
-
-.s-t5 {
-    font-family: Sylfaen, serif;
-    font-size: 1em;
-    font-style: normal;}
-
-.s-t6 {
-    background-color: #ff0;
-    font-family: "Mongolian Baiti", monospace;}
-
-.s-t7 {font-family: "Mongolian Baiti", monospace;}
-
-.s-t8 {font-family: Caladea, sans-serif;}
-
-.s-t9 {
-    font-family: "Mongolian Baiti", monospace;
-    font-size: 1.125em;}
-
-.s-t10 {background-color: #ff0;}
-
-.s-t11 {
-    color: #000;
-    font-style: normal;
-    font-weight: bold;}
-
-.s-t12 {font-style: normal;}
-
-.s-t13 {font-style: italic;}
-
-.s-t14 {font-size: 0.75em;}
-
-.s-t15 {
-    font-family: "Courier New", monospace;
-    font-size: 0.75em;}
-
-.s-t16 { 
-    color: #000;
-    font-family: Caladea, serif;
-    font-size: 1em;}
-
-.s-t17 {
-    font-family: Caladea, serif;
-    font-size: 0.95em;}
-
-
-
-.s-t19 {
-    color: #000;
-    line-height: 1.2;}
-
-.s-t20 {
-    color: #000;
-    font-size: 1.125em;
-    line-height: 1.2;}
-
-.s-t21 {
-    background-color: #ff0;
-    line-height: 1.2;}
-
-
-
-.s-t23 {
-    font-family: "Segoe UI Black", sans-serif;
-    font-size: 1.8em;
-    line-height: 1.2;}
-
-.s-t24 {
-    font-family: "Times New Roman", serif;
-    font-size: 1.41667em;
-    line-height: 1.2;}
-
-.s-t25 {color: #000;}
-
-.s-t26 {color: #000;
-    font-style: normal;}
-
-.s-t27 {
-    font-family: "Segoe UI Symbol", sans-serif;
-    font-size: 1.125em;}
-
-.s-t28 {
-    font-size: 1.41667em;
-    line-height: 1.2;}
-
-.s-t29 {
-    font-family: "Segoe UI Emoji", sans-serif;
-    font-size: 1.125em;
-    line-height: 1.2;}
-
-.s-t30 {
-    color: #000;
-    font-family: Caladea, serif;
-    font-size: 1em;
-    line-height: 1.2;}
-
-
-
-.s-t32 {
-    color: #000;
-    font-family: "Microsoft YaHei", sans-serif;
-    font-size: 0.75em;}
-
-.s-t33 {
-    font-family: "Microsoft YaHei", sans-serif;
-    font-size: 0.75em;}
-
-.s-t34 {font-family: "Segoe UI Emoji", sans-serif;}
-
-.s-t35 {font-family: "DejaVu Serif", serif;}
-
-.s-t36 {font-size: 1.125em;}
-
-.s-t37 {
-    color: #000;
-    font-style: normal;}
-
-.s-t38 {
-    font-family: Caladea, sans-serif;
-    font-style: normal;}
-
-.s-t39 {font-style: normal;}
-
-.s-t40 {
-    color: #000;
-    font-style: normal;}
-
-.s-t41 {
-    color: #000;
-    font-family: "Mongolian Baiti", monospace;
-    font-size: 0.70em;}
-
-.s-t42 {
-    color: #000;
-    font-family: "Segoe MDL2 Assets", sans-serif;
-    font-style: normal;}
-
-.s-t43 {
-    color: #000;
-    font-family: "Microsoft New Tai Lue", sans-serif;}
-
-.s-t44 {
-    color: #000;
-    font-family: "Microsoft New Tai Lue", sans-serif;
-    font-size: 1.125em;
-    font-style: normal;}
-
-.s-t45 {font-family: "Microsoft New Tai Lue", sans-serif;}
-
-.s-t46 {
-    font-family: "Segoe UI Emoji", sans-serif;
-    font-size: 1.41667em;
-    line-height: 1.2;}
-
-
-
-.s-t48 {font-family: "Segoe UI Symbol", sans-serif;}
-
-.s-t49 {
-    color: #000;
-    font-family: "Segoe UI Emoji", sans-serif;}
-
-.s-t50 {
-    font-family: "Mongolian Baiti", monospace;
-    font-size: 1.3em;
-    line-height: 1.2;}
-
-.s-t51 {
-    font-family: "Segoe UI Emoji", sans-serif;
-    font-size: 1.125em;}
-
-.s-t52 {
-    color: #000;
-    font-family: "Mongolian Baiti", monospace;
-    font-style: normal;
-    font-weight: bold;}
-
-.s-t53 {
-    color: #000;
-    font-size: 0.75em;
-    font-style: normal;
-    font-weight: bold;}
-
-.s-t54 {
-    font-family: Caladea, sans-serif;
-    line-height: 1.2;}
-
-.s-t55 {
-    font-family: Caladea, serif;}
-
-.s-t56 {
-    font-family: "Courier New", monospace;
-    font-size: 1.41667em;
-    line-height: 1.2;}
-
-.s-t57 {
-    color: #000;
-    font-family: Caladea, sans-serif;
-    font-size: 1em;}
-
-.s-t58 {
-    color: #000;
-    font-size: 0.75em;}
-
-.s-t59 {
-    background-color: #ff0;
-    font-family: Caladea, sans-serif;
-    line-height: 1.2;}
-    
-.s-t60 {
-    color: #000;
-    font-family: Caladea, sans-serif;
-    font-size: 0.75em;
-    font-style: normal;
-    font-weight: bold;}
-
-.s-t61 {
-    font-family: "Franklin Gothic Medium", sans-serif;
-    font-size: 1.41667em;
-    line-height: 1.2;}
-
-.s-t62 {
-    font-family: SimSun, sans-serif;}
-
-.s-t63 {
-    font-family: "Mongolian Baiti", monospace;
-    font-size: 1.41667em;
-    line-height: 1.2;}
-
-.s-t64 {
-    color: #000;
-    font-family: "Mongolian Baiti", monospace;
-    font-size: 1em;}
-
-.s-t65 {
-    color: #000;
-    font-family: "Mongolian Baiti", monospace;
-    font-size: 1em;
-    font-style: normal;}
-
-.s-t66 {font-family: "Mongolian Baiti", sans-serif;}
-
-.s-t67 {
-    font-family: "Mongolian Baiti", sans-serif;
-    font-style: normal;}
-
-.s-t68 {
-    font-family: "Mongolian Baiti", sans-serif;
-    font-style: italic;}
-
-.s-t69 {
-    font-family: "Mongolian Baiti", sans-serif;
-    font-size: 0.75em;
-    font-style: italic;}
-
-.s-t70 {
-    font-family: "Mongolian Baiti", sans-serif;
-    font-size: 0.75em;
-    font-style: normal;}
-
-.s-t71 {
-    font-size: 0.85em;
-    font-style: normal;}
-
-.s-t72 {
-    font-family: Arial, sans-serif;
-    font-size: 0.58333em;
-    font-style: normal;}
-
-.s-t73 {
-    color: #000;
-    font-family: "Microsoft New Tai Lue", sans-serif;
-    font-size: 0.75em;
-    font-style: normal;}
-
-.s-t74 {
-    color: #000;
-    font-family: "Microsoft New Tai Lue", sans-serif;
-    font-size: 0.75em;}
-
-.s-t75 {
-    color: #000;
-    font-family: "Microsoft New Tai Lue", sans-serif;
-    font-size: 0.75em;}
-
-.s-t76 {
-    font-family: "Mongolian Baiti", sans-serif;
-    line-height: 1.2;}
-
-.s-t77 {
-    font-family: "Mongolian Baiti", sans-serif;
-    font-style: normal;
-    line-height: 1.2;}
-
-.s-t78 {
-    font-family: "Mongolian Baiti", sans-serif;
-    font-style: italic;
-    line-height: 1.2; }
-
-.s-t79 {
-    font-family: "Mongolian Baiti", monospace;
-    font-size: 0.75em;
-    font-style: normal;
-    font-weight: bold;}
-
-.s-t80 {
-    font-family: "Segoe UI Emoji", sans-serif;
-    font-size: 1.41667em;
-    font-style: normal;
-    line-height: 1.2;}
-
-.s-t81 {
-    font-style: normal;
-    line-height: 1.2;}
-
-.s-t82 {
-    font-family: Symbol, serif;
-    font-style: italic;}
-
-.s-t83 {
-    font-family: "Mongolian Baiti", monospace;
-    font-style: normal;}
-
-.s-t84 {font-family: "Courier New", monospace;}
-
-.s-t85 {
-    background-color: #ff0;
-    color: #000;
-    font-size: 0.75em;
-    font-style: normal;
-    font-weight: bold;}
-
-.s-t86 {
-    font-family: "Segoe UI Emoji", sans-serif;
-    line-height: 1.2; }
-
-.s-t87 {
-    font-family: "Segoe MDL2 Assets", sans-serif;
-    font-style: normal;}
-
-.s-t88 {
-    color: #000;
-    font-family: "Mongolian Baiti", monospace;
-    font-size: 0.85em;}
-
-.s-t89 {
-    color: #000;
-    font-family: "Mongolian Baiti", monospace;
-    font-size: 0.6em;}
-
-.s-t90 {
-    color: #000;
-    font-family: "Mongolian Baiti", monospace;
-    font-size: 0.75em;
-    font-style: normal;
-    font-weight: bold;}
-
-.s-t91 {
-    font-family: "Segoe UI Emoji", sans-serif;
-    font-size: 0.75em;}
-
-.s-t92 {
-    font-family: "Segoe UI Symbol", sans-serif;
-    font-size: 1.41667em;
-    line-height: 1.2;}
-
-.s-t93 {
-    font-family: "Segoe UI Emoji", sans-serif;
-    font-style: normal;}
-
-.s-t94 {
-    font-size: 0.75em;
-    font-style: normal;
-    font-weight: bold;}
+    right: 20px;
+}
 
 a:hover {
     font-family: 'IBM Plex Sans', sans-serif;
-    color: black;}
+    color: black;
+}
 
 h2.widgettitle {
     font-family: "mongolian baiti";
     margin-bottom: 5px;
-    font-size: 25px;}
+    font-size: 25px;
+}
 
 button.toc_toggle {
     background: transparent;
@@ -460,10 +87,10 @@ button.toc_toggle {
     top: 7px;
     right: 60px;
     z-index: 999999;
-    cursor: pointer;}
-      
-#fix_toc.hide {
-        display: none;}
+    cursor: pointer;
+}
+
+#fix_toc.hide {display: none;}
 
 .fix_toc {
     position: fixed;
@@ -477,7 +104,8 @@ button.toc_toggle {
     z-index: 999999;
     max-width: 200px;
     max-height: 50vh;
-    overflow-y: auto;}
+    overflow-y: auto;
+}
 
 .fix_toc .widget ul li {
     font-size: 14px;
@@ -485,17 +113,21 @@ button.toc_toggle {
     padding: 5px 10px;
     background: #fff;
     margin-bottom: 5px;
-    border-radius: 3px;}
+    border-radius: 3px;
+}
 
 .fix_toc .widget ul li a {
     color: black;
-    display: block;}
+    display: block;
+}
 
 div#fix_toc::-webkit-scrollbar-thumb {
     border-radius: 10px;
     box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
-    background-color: black;}
-      
+    background-color: black;
+}
+  
 div#fix_toc::-webkit-scrollbar {
     width: 5px;
-    background-color: #ffffff;}
+    background-color: #ffffff;
+}
