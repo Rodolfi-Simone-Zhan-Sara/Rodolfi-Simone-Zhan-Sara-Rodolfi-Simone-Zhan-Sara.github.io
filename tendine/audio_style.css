@@ -3,11 +3,11 @@
     margin-top: 5pt}
 
 #home {	
-    position:absolute;
+    position: fixed;
     display: block;
     width: 30px;
     top: 10px;
-    right: 40px;}
+    right: 0px;}
 
 .calibre1 {
     display: block;
@@ -657,8 +657,9 @@ button.toc_toggle {
     background: transparent;
     max-width: 40px;
     position: fixed;
-    bottom: 10px;
-    left: 10px;
+    padding-left: 3px;
+    top: 10px;
+    right: 60px;
     z-index: 999999;
     cursor: pointer;}
       
@@ -667,8 +668,8 @@ button.toc_toggle {
 
 .fix_toc {
     position: fixed;
-    left: 10px;
-    bottom: 70px;
+    right: 60px;
+    top: 50px;
     padding-right: 15px;
     padding-top: 0px;
     padding-left: 5px;
