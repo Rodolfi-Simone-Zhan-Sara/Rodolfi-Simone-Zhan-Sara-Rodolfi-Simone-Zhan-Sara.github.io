@@ -41,7 +41,7 @@ p{
 
 
 #home {	
-    position:absolute;
+    position:fixed;
     display: block;
     width: 30px;
     top: 10px;
