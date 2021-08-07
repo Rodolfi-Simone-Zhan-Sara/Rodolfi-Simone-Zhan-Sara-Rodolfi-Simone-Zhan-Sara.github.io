@@ -92,7 +92,6 @@ function play(){
 
 	}
 	audio = new Audio(audios[indice]);
-	indice++;
 	console.log(time)
 
 	audio.play();
@@ -100,10 +99,10 @@ function play(){
 	console.log(audio.currentTime)
 	time = 0;
 	audio.onended = function() {
-		if(indice < audios.length){
+		if(indice+1 < audios.length){
+			indice++;
 			audio.src = audios[indice];
 			audio.play();
-			indice++;
 		}
 		else{
 			indiceReal = 0;
