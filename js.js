@@ -12,7 +12,7 @@ function play(){
 	else{
 		document.getElementById("vinile").src = "https://media1.tenor.com/images/3d3e0a53c3da9e38986c755211fbe1a9/tenor.gif";
 		click++;
-		let text = document.getElementById("myText").value;
+		var text = document.getElementById("myText").value;
 		text = text.trim();
 		text = text.toLowerCase();
 		if (testoPrima != text){
