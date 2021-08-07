@@ -104,7 +104,7 @@ function play(){
 			audio.play();
 		}
 		else{
-			indiceReal = 0;
+			indice = 0;
 			click = 0;
 			document.getElementById("vinile").src = "/risorse/vinile.png";
 		}
