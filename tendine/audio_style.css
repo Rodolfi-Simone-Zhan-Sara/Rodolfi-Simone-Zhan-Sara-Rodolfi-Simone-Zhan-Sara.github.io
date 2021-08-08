@@ -19,7 +19,7 @@ p{
 	text-align: justify;
 }
 
-p2{
+#titolo{
 	display: block;
 	font-family: Sylfaen,serif;
 	line-height: 130%;
@@ -49,9 +49,16 @@ p2{
 
 .disegni{
 	font-family: "Courier New", monospace;
-	font-family: 0.4em;
+	font-size: 0.8em;
 	margin-left: 1.25cm;
-	line-height: 3px;	
+	line-height: 2px;	
+}
+
+.disegni2{
+	font-family: "Courier New", monospace;
+	font-size: 0.5em;
+	margin-left: 1.5cm;
+	line-height: 1px;	
 }
 
 #x3 {font-size: 0.75em;}
@@ -67,7 +74,7 @@ p2{
 
 #smile {font-family: "Segoe MDL2 Assets", sans-serif;}
 
-#gatto {font-family: "Microsoft New Tai Lue", sans-serif;}
+#tilde {font-family: "Microsoft New Tai Lue", sans-serif;}
 
 #home {	
     position:fixed;
