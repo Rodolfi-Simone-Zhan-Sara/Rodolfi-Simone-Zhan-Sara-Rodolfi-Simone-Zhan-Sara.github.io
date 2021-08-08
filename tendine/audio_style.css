@@ -8,6 +8,7 @@ body{
 
 h1{
 	text-align: center;
+    padding-top: 10px;
 }
 
 p{
@@ -15,7 +16,15 @@ p{
 	font-family: Sylfaen,serif;
 	line-height: 150%;
 	font-size: 1em;
-	text-align: justify
+	text-align: justify;
+}
+
+p2{
+	display: block;
+	font-family: Sylfaen,serif;
+	line-height: 130%;
+	font-size: 1.2em;
+	text-align: justify;
 }
 
 .A1 {font-size: 0.8em;}
