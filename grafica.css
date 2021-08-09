@@ -11,7 +11,6 @@ h1
 	font-family: "Merienda";
     font-weight: 500;
 	color: white;
-	display: block;
 }
 
 h2
@@ -44,6 +43,15 @@ h3
 	top: 10px;
 	right: 100px;
 }
+
+#egg
+{	position:fixed;
+	display: block;
+	width: 10px;
+	top: 251px;
+	left: 193px;
+}
+
 
 #sx
 {
