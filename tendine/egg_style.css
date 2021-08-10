@@ -1,7 +1,58 @@
+
+body{
+	background-color: #A8B2BE;
+}
+
+h1{
+	text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #home {	
     position: fixed;
     display: block;
     width: 30px;
     top: 10px;
-    right: 45px;
+    right: 20px;
+}
+
+.titolo {
+    font-family: Caladea, serif;
+    text-align: center;
+	line-height: 150%;
+	font-size: 1.4em;
+}
+
+.inizio {
+    font-family: Caladea, serif;
+	font-size: 1.2em;
+    line-height: 90%;
+    text-align: justify;
+}
+
+p{
+    display: block;
+	font-family: Caladea, serif;
+	line-height: 150%;
+	font-size: 1.1em;
+    margin-right: 10px;
+	text-align: justify;
+}
+
+.chiave {
+	font-family: Caladea, serif;
+	font-size: 1.15em;
+}
+
+.emoji {
+    font-family: HoloLens MDL2 Assets;
+    font-size: 1.2em;
+}
+
+.disegni{
+	font-family: "Courier New", monospace;
+	font-size: 0.9em;
+	margin-left: 1.5cm;
+	line-height: 1px;	
 }
