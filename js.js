@@ -8,10 +8,10 @@ function play(){
 		click = 0;
 		time = audio.currentTime;
 		audio.pause();
-		document.getElementById("vinile").src = "/risorse/vinile1.png";
+		document.getElementById("vinile").src = "/risorse/vinile.png";
 	}
 	else{
-		document.getElementById("vinile").src = "/risorse/tenor.gif";
+		document.getElementById("vinile").src = "/risorse/vinyl.gif";
 		click++;
 		var text = document.getElementById("myText").value;
 		text = text.trim();
