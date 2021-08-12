@@ -3,12 +3,18 @@
 }
 
 body{
-	background-color: #A8B2BE;
+	background-color: #8c5946;
 }
 
 h1{
 	text-align: center;
     padding-top: 10px;
+	color: white;
+}
+
+h3{
+	color: white;
+
 }
 
 p{
@@ -17,6 +23,15 @@ p{
 	line-height: 150%;
 	font-size: 1em;
 	text-align: justify;
+	color: white;
+}
+
+ol{
+	color: white;
+}
+
+a{
+	color: white;
 }
 
 .titolo{
@@ -104,6 +119,7 @@ p{
 
 ul {
     padding-inline-start: 20px;
+	
 }
 
 .fix_toc {

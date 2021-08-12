@@ -1,11 +1,12 @@
 body{
-	background-color: #A8B2BE;
+	background-color: #8c5946;
 }
 
 h1{
 	text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+	color: white;
 }
 
 #home {	
@@ -34,6 +35,11 @@ p{
 	font-size: 1.1em;
     margin-right: 10px;
 	text-align: justify;
+	color: white;
+}
+
+a{
+	color: white;
 }
 
 .chiave {
