@@ -11,7 +11,7 @@ function play(){
 		document.getElementById("vinile").src = "/risorse/vinile.png";
 	}
 	else{
-		document.getElementById("vinile").src = "/risorse/vinyl.gif";
+		document.getElementById("vinile").src = "/risorse/tenor.gif";
 		click++;
 		var text = document.getElementById("myText").value;
 		text = text.trim();
