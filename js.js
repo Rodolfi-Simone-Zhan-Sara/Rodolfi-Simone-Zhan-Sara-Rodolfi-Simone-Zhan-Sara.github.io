@@ -8,7 +8,7 @@ function play(){
 		click = 0;
 		time = audio.currentTime;
 		audio.pause();
-		document.getElementById("vinile").src = "/risorse/vinile.png";
+		document.getElementById("vinile").src = "/risorse/vinile1.png";
 	}
 	else{
 		document.getElementById("vinile").src = "/risorse/tenor.gif";
