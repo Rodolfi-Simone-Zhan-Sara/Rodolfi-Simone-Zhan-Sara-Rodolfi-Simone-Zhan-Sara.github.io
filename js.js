@@ -11,7 +11,7 @@ function play(){
 		document.getElementById("vinile").src = "/risorse/vinile.png";
 	}
 	else{
-		document.getElementById("vinile").src = "https://media1.tenor.com/images/3d3e0a53c3da9e38986c755211fbe1a9/tenor.gif";
+		document.getElementById("vinile").src = "/risorse/vinyl.gif";
 		click++;
 		var text = document.getElementById("myText").value;
 		text = text.trim();
