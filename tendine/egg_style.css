@@ -1,4 +1,3 @@
-
 body{
 	background-color: #A8B2BE;
 }
@@ -18,17 +17,14 @@ h1{
 }
 
 .titolo {
-    font-family: Caladea, serif;
     text-align: center;
 	line-height: 150%;
 	font-size: 1.4em;
 }
 
 .inizio {
-    font-family: Caladea, serif;
 	font-size: 1.2em;
     line-height: 90%;
-    text-align: justify;
 }
 
 p{
@@ -41,7 +37,6 @@ p{
 }
 
 .chiave {
-	font-family: Caladea, serif;
 	font-size: 1.15em;
 }
 
