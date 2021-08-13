@@ -113,6 +113,8 @@ a{
     right: 15px;
     z-index: 999999;
     cursor: pointer;
+    border: none
+
 }
 
 #fix_toc.hide {display: none;}
