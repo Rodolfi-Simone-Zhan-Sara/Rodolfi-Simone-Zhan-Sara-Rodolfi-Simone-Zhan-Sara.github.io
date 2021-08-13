@@ -88,6 +88,7 @@ input
     font-weight: 300;
     color: #613d31;
     border: none;
+	outline-color: #613d31;
 }
 
 #vinile 
