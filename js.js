@@ -107,7 +107,8 @@ function play(){
 	}	
 }
 function bottoneOver(){
-	document.getElementById("bottone").style.boxShadow = "2px 2px 20px 0px"
+	document.getElementById("bottone").style.boxShadow = "2px 2px 20px 0px #a4a1a0b0"
+	document.getElementById("bottone").style.backgroundColor = "#00000014"
 }
 function bottoneOut(){
 	document.getElementById("bottone").style.backgroundColor = "transparent"
