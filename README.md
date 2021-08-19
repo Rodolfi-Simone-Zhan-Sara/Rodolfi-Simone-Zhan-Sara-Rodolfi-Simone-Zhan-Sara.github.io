@@ -4,7 +4,7 @@
   </a>
   <h3 align="center">DisCode</h3>
   <p align="center">
-    Un sito divertente :)
+    Un sito che legge le parole in un modo particolare
     <br />
     ·
     <a href = "https://rodolfi-simone-zhan-sara.github.io">Sito</a>
