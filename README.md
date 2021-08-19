@@ -9,7 +9,7 @@
     ·
     <a href = "https://rodolfi-simone-zhan-sara.github.io">Sito</a>
     ·
-    <a href="https://github.com/Rodolfi-Simone-Zhan-Sara/Rodolfi-Simone-Zhan-Sara.github.io/issues">Issue per bug e idee~</a>
+    <a href="https://github.com/Rodolfi-Simone-Zhan-Sara/Rodolfi-Simone-Zhan-Sara.github.io/issues">Issue per bug e idee</a>
   </p>
 </p>
 
