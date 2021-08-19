@@ -1,3 +1,4 @@
+[![Contributors][https://img.shields.io/badge/CONTRIBUTORS-%202-red]][https://github.com/Rodolfi-Simone-Zhan-Sara/Rodolfi-Simone-Zhan-Sara.github.io/graphs/contributors]
 <p align="center">
   <a href = "https://rodolfi-simone-zhan-sara.github.io">
     <img src="risorse/favicon.ico" width="40" height="40">
