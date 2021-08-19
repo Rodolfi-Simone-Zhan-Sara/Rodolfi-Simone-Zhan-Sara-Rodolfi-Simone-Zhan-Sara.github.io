@@ -1,4 +1,4 @@
-[![Contributors][https://img.shields.io/badge/CONTRIBUTORS-%202-red]][https://github.com/Rodolfi-Simone-Zhan-Sara/Rodolfi-Simone-Zhan-Sara.github.io/graphs/contributors]
+[![Contributors][contributors-shield]][contributors-url]
 <p align="center">
   <a href = "https://rodolfi-simone-zhan-sara.github.io">
     <img src="risorse/favicon.ico" width="40" height="40">
@@ -57,3 +57,6 @@ Avere chrome :)
 ### Istruzioni
 
 bla bla
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-%202-red
+[contributors-url]: https://github.com/Rodolfi-Simone-Zhan-Sara/Rodolfi-Simone-Zhan-Sara.github.io/graphs/contributors
