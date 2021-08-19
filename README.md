@@ -24,7 +24,7 @@
     <li>
       <a href="#il-progetto">Il progetto</a>
       <ul>
-        <li><a href="#con-l'utilizzo-di">Con l'utilizzo di</a></li>
+        <li><a href="#con-lutilizzo-di">Con l'utilizzo di</a></li>
       </ul>
     </li>
     <li>
