@@ -5,12 +5,12 @@ body
 
 h1
 {
-	margin: 5%;
-	font-size: 550%;
-	line-height: 1.232;
-	font-family: "Merienda";
+    margin: 7mm;
+    font-size: 3cm;
+    line-height: 1.232;
+    font-family: "Merienda";
     font-weight: 500;
-	color: white;
+    color: white;
 }
 
 h2
@@ -57,9 +57,9 @@ h4
 #egg
 {	position:fixed;
 	display: block;
-	width: 10px;
-	top: 13.5%;
-	left: 10.4%;
+    width: 3.5mm;
+    top: 2.49cm;
+    left: 3.75cm;
 }
 
 #sx
@@ -67,8 +67,8 @@ h4
 	width: 43%;
     float: left;
 	display: block;
-	margin-left: 1.7%;
-	margin-top: 2.4%;
+	margin-left: 1mm;
+	margin-top: 1cm;
 }
 
 #bottone
