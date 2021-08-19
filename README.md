@@ -22,9 +22,9 @@
   <summary>Indice</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#progetto">Il progetto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#utilizzo">Con l'utilizzo di</a></li>
       </ul>
     </li>
     <li>
@@ -37,12 +37,12 @@
 
 
 
-## About The Project
+## IL PROGETTO
 
 blablabla
 
 
-### Built With
+### CON L'UTILIZZO DI
 
 * html
 * css
