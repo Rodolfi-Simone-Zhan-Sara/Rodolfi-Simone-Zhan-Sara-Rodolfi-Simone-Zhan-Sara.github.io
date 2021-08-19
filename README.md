@@ -19,12 +19,12 @@
 
 
 <details open="open">
-  <summary>Indice</summary>
+  <summary>INDICE</summary>
   <ol>
     <li>
-      <a href="#progetto">IL PROGETTO</a>
+      <a href="#il-progetto">IL PROGETTO</a>
       <ul>
-        <li><a href="#utilizzo">CON L'UTILIZZO DI</a></li>
+        <li><a href="#con-l'utilizzo-di">CON L'UTILIZZO DI</a></li>
       </ul>
     </li>
     <li>
@@ -38,8 +38,7 @@
 
 
 ## IL PROGETTO
-
-blablabla
+Migliore visuale da certi browser
 
 
 ### CON L'UTILIZZO DI
