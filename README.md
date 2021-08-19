@@ -1,6 +1,6 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Github][github-shield]][github-url]
-[![Organization][orgnization-shield]][organization-url]
+[![Organization][organization-shield]][organization-url]
 
 <p align="center">
   <a href = "https://rodolfi-simone-zhan-sara.github.io">
