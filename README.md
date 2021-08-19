@@ -65,5 +65,5 @@ bla bla
 [contributors-url]: https://github.com/Rodolfi-Simone-Zhan-Sara/Rodolfi-Simone-Zhan-Sara.github.io/graphs/contributors
 [github-shield]: https://img.shields.io/badge/GITHUB-%20REPOSITORY-orange
 [github-url]: https://github.com/Rodolfi-Simone-Zhan-Sara/Rodolfi-Simone-Zhan-Sara.github.io
-[organization-shield]: https://img.shields.io/badge/Our-organization-orange
+[organization-shield]: https://img.shields.io/badge/OUR-ORGANIZATION-orange
 [organization-url]: https://github.com/Rodolfi-Simone-Zhan-Sara
