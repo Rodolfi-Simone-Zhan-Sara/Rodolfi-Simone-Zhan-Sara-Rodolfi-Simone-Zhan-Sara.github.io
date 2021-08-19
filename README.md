@@ -22,9 +22,9 @@
   <summary>INDICE</summary>
   <ol>
     <li>
-      <a href="#il-progetto">IL PROGETTO</a>
+      <a href="#il-progetto">Il progetto</a>
       <ul>
-        <li><a href="#con-l'utilizzo-di">CON L'UTILIZZO DI</a></li>
+        <li><a href="#con-l'utilizzo-di">Con l'utilizzo di</a></li>
       </ul>
     </li>
     <li>
@@ -37,11 +37,11 @@
 
 
 
-## IL PROGETTO
+## Il progetto
 Migliore visuale da certi browser
 
 
-### CON L'UTILIZZO DI
+### Con l'utilizzo di
 
 * html
 * css
