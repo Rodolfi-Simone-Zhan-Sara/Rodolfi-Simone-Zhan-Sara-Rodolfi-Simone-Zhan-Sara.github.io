@@ -60,9 +60,9 @@ Ma non solo! In esclusiva anche la lista di descrizioni accurate, perché non vo
   <br>
   Due, cliccare la bellissima icona del giradischi qui sopra per aprire la pagina.
   <br>
-  Tre, pensa ad una parola/frase o soltanto lettere a caso, inseriscile, permi il bottone "Audio" e preparati all'ascolto(emoji occhiolino).
+  Tre, pensa ad una parola/frase o soltanto lettere a caso, inseriscile, permi il bottone "Audio" e preparati all'ascolto(•ᴗ-).
   <br>
-  (Se la tua memoria è come la nostra(emoji pazzo) non ti preoccupare troverai le istruzioni anche nel sito).
+  (Se la tua memoria è come la nostra ʘʚʘ non ti preoccupare troverai le istruzioni anche nel sito).
   <br>
   Ultima comunicazione importante, ci sono degli Easter Egg quindi tocca a te scoprire il bottone che ti porta a tutte le parole magiche, troverai persino i nostri commenti a quegl'audio
   <br>
