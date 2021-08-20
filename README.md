@@ -66,7 +66,7 @@ Ma non solo! In esclusiva anche la lista di descrizioni accurate, perché non vo
   <br>
   Ultima comunicazione importante, ci sono degli Easter Egg quindi tocca a te scoprire il bottone che ti porta a tutte le parole magiche, troverai persino i nostri commenti a quegl'audio
   <br>
-  <h4>Ora tocca a te, divertiti, scopri e fatti grosse risateㄟ(≧◇≦)ㄏ ꉂ◟(˃᷄ꇴ˂᷅)༡ʱªʱª✧ </h4>
+  <h4>Ora tocca a te, divertiti, scopri e fatti grosse risate ꉂ◟(˃᷄ꇴ˂᷅)༡ʱªʱª✧ </h4>
   </p>
 
 <img src="risorse/rainbow.png">
