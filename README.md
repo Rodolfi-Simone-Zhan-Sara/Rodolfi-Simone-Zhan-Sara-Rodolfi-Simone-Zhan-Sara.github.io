@@ -42,6 +42,7 @@
   <br>
   Altro elemento caratterizzante e fondamnetale è la lista di commenti "divertenti" ad ogni suono, per rappresentare la scelta accurata di ciascuno e la loro provenienza.
 </p>
+  
 ### Realizzato con
 
 * html
