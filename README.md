@@ -73,7 +73,7 @@ Ma non solo! In esclusiva anche la lista di descrizioni accurate, perché non vo
 
 ## Autori
 
-Ideato, Progettato e Realizzato da Simone Rodolfi & Sara Zhan
+Ideato, progettato e realizzato da Simone Rodolfi & Sara Zhan
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-%202-red
