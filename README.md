@@ -46,7 +46,7 @@ Migliore visuale da certi browser
 * css
 * js
 
-<img src="risorse/linea.png">
+<img src="risorse/linea.png"><img src="risorse/linea.png">
 
 ## Getting Started
 
