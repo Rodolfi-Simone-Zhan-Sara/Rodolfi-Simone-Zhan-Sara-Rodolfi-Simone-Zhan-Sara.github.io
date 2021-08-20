@@ -18,7 +18,7 @@
 
 
 <details open="open">
-  <summary>📋 INDICE</summary>
+  <summary>INDICE</summary>
   <ol>
     <li>
       <a href="#il-progetto">Il progetto</a>
@@ -46,7 +46,7 @@ Migliore visuale da certi browser
 * css
 * js
 
-<img src="risorse/linea.png"><img src="risorse/linea.png">
+<img src="risorse/rainbow.png">
 
 ## Getting Started
 
