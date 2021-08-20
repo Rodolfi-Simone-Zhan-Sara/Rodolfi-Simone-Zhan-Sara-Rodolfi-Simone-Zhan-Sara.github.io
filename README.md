@@ -42,7 +42,7 @@ Però, nessuna paura, avevano in mente tutto. Al parco, si sedettero rilassati s
 <br>
 Svillupato in due mesi: dopo discussioni, fatiche e sudore. Consiste in una pagina web che riproduce parole con suoni divertenti, ma contemporaneamente riconducibili alle pronuncie dei caratteri stessi.
 <br>
-Ma non solo! In esclusiva anche la lista di descrizioni accurate, perché non vogliamo solo far divertire ma tentiamo di far conoscere queste piccole cose, piccoli suoni, che dovrebbero essere apprezzati di più~
+Ma non solo! In esclusiva anche la lista di descrizioni accurate, perché non vogliamo solo far divertire ma tentiamo di far conoscere queste piccole cose, piccoli suoni, che dovrebbero essere apprezzati di più~ 
 </p>
   
 ### Realizzato con
@@ -66,14 +66,14 @@ Ma non solo! In esclusiva anche la lista di descrizioni accurate, perché non vo
   <br>
   Ultima comunicazione importante, ci sono degli Easter Egg quindi tocca a te scoprire il bottone che ti porta a tutte le parole magiche, troverai persino i nostri commenti a quegl'audio
   <br>
-  <h4>Ora tocca a te, divertiti, scopri e fatti grosse risate(emoji bacio)</h4>
+  <h4>Ora tocca a te, divertiti, scopri e fatti grosse risateㄟ(≧◇≦)ㄏ ꉂ◟(˃᷄ꇴ˂᷅)༡ʱªʱª✧ </h4>
   </p>
 
 <img src="risorse/rainbow.png">
 
 ## Autori
 
-Ideato, progettato e realizzato da Simone Rodolfi & Sara Zhan
+Ideato, progettato e realizzato da Simone Rodolfi (• . •)¿ & Sara Zhan (:◎)≡
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-%202-red
