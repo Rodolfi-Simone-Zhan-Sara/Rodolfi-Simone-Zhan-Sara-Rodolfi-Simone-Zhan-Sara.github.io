@@ -53,15 +53,20 @@
 
 ## Per iniziare
 
-Indicazioni per il sito...
-
-### Requisiti
-
-Avere chrome :)
-
-### Istruzioni
-
-bla bla
+<p>
+  Come prima cosa scarica la repository, sarà utile per la comprensione dei commenti ai vari audio.
+  <br>
+  Due, cliccare la bellissima icona del giradischi qui sopra per aprire la pagina.
+  <br>
+  Tre, pensa ad una parola/frase o soltanto lettere a caso, inseriscile, permi il bottone "Audio" e preparati all'ascolto(emoji occhiolino).
+  <br>
+  (Se la tua memoria è come la nostra(emoji pazzo) non ti preoccupare troverai le istruzioni anche nel sito).
+  <br>
+  Ultima comunicazione importante, ci sono degl'Easter Egg quindi tocca a te trovare il bottone che ti porta a tutte le parole magiche, troverai persino i nostri commenti a quegl'audio
+  <br>
+  <h4>Ora tocca a te, divertiti, scopri e fatti grosse risate(emoji bacio)</h4>
+  </p>
+  
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-%202-red
 [contributors-url]: https://github.com/Rodolfi-Simone-Zhan-Sara/Rodolfi-Simone-Zhan-Sara.github.io/graphs/contributors
