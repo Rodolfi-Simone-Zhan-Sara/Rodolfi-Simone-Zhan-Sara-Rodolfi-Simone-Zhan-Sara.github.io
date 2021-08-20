@@ -23,13 +23,13 @@
     <li>
       <a href="#il-progetto">Il progetto</a>
       <ul>
-        <li><a href="#realizzato-con">Con l'utilizzo di</a></li>
+        <li><a href="#realizzato-con">Realizzato con</a></li>
       </ul>
     </li>
     <li>
-      <a href="#per-iniziare">Getting Started</a>
+      <a href="#per-iniziare">Per iniziare</a>
       <ul>
-        <li><a href="#requisiti">Prerequisites</a></li>
+        <li><a href="#requisiti">Requisiti</a></li>
         <li><a href="#istruzioni">Istruzioni</a></li>
   </ol>
 </details>
