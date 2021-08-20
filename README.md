@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href = "https://rodolfi-simone-zhan-sara.github.io">
-    <img src="risorse/favicon.ico" width="40" height="40">
+    <img src="risorse/favicon.ico" width="50" height="50">
   </a>
   <h1 align="center">DisCode</h1>
   <h3 align="center"> Un sito che legge le parole in modo creativo </h3>
