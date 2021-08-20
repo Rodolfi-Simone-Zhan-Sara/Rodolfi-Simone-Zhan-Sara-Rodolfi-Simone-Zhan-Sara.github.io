@@ -37,9 +37,11 @@
 <img src="risorse/rainbow.png">
 
 ## Il progetto
-Questo progetto parte da un'idea originale di Zhan sviluppato in seguito da Zhan & Rodolfi, consiste in una pagina web per riprodurre parole con suoni divertenti, ma riconducibili alle pronuncie dei caratteri stessi.
-Altro elemento caratterizzante e fondamnetale è la lista di commenti "divertenti" ad ogni suono, per rappresentare la scelta accurata di ciascuno e la loro provenienza.
-
+<p>Q
+  uesto progetto parte da un'idea originale di Zhan sviluppato in seguito da Zhan & Rodolfi, consiste in una pagina web per riprodurre parole con suoni divertenti, ma riconducibili alle pronuncie dei caratteri stessi.
+  <br>
+  Altro elemento caratterizzante e fondamnetale è la lista di commenti "divertenti" ad ogni suono, per rappresentare la scelta accurata di ciascuno e la loro provenienza.
+</p>
 ### Realizzato con
 
 * html
