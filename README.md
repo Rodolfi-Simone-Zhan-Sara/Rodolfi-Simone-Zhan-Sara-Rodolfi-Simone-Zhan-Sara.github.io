@@ -6,9 +6,8 @@
   <a href = "https://rodolfi-simone-zhan-sara.github.io">
     <img src="risorse/favicon.ico" width="40" height="40">
   </a>
-  <h3 align="center">DisCode</h3>
-  <p align="center">
-    Un sito che legge le parole in modo creativo
+  <h1 align="center">DisCode</h1>
+  <h3 align="center">Un sito che legge le parole in modo creativo</h3>  
     <br />
     ·
     <a href = "https://rodolfi-simone-zhan-sara.github.io">Sito</a>
@@ -19,7 +18,7 @@
 
 
 <details open="open">
-  <summary>INDICE</summary>
+  <summary>📋 INDICE</summary>
   <ol>
     <li>
       <a href="#il-progetto">Il progetto</a>
