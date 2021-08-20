@@ -28,9 +28,6 @@
     </li>
     <li>
       <a href="#per-iniziare">Per iniziare</a>
-      <ul>
-        <li><a href="#requisiti">Requisiti</a></li>
-        <li><a href="#istruzioni">Istruzioni</a></li>
   </ol>
 </details>
 
@@ -38,9 +35,12 @@
 
 ## Il progetto
 <p>
-  Questo progetto parte da un'idea originale di Zhan sviluppato in seguito da Zhan & Rodolfi, consiste in una pagina web per riprodurre parole con suoni divertenti, ma riconducibili alle pronuncie dei caratteri stessi.
-  <br>
-  Altro elemento caratterizzante e fondamnetale è la lista di commenti "divertenti" ad ogni suono, per rappresentare la scelta accurata di ciascuno e la loro provenienza.
+Primavera. Era un giovedì mattina sereno, due ragazzi quindicenni dispersi per le vie e le strade di una grande città. Era imminente l'argomento per il compito estivo d'informatica...
+Però, nessuna paura, avevano in mente tutto. Al parco, si sedettero rilassati su delle panchine, ad ascoltare le reciproche idee e finalmente decisero il progetto...
+<br>
+Svillupato in due mesi: dopo discussioni, fatiche e sudore. Consiste in una pagina web che riproduce parole con suoni divertenti, ma contemporaneamente riconducibili alle pronuncie dei caratteri stessi.
+<br>
+Ma non solo! In esclusiva anche la lista di descrizioni accurate, perché non vogliamo solo divertire rendiamo conoscienza/facciamo sapere che anche queste piccole cose, piccoli suoni sono da apprezzare~
 </p>
   
 ### Realizzato con
@@ -62,7 +62,7 @@
   <br>
   (Se la tua memoria è come la nostra(emoji pazzo) non ti preoccupare troverai le istruzioni anche nel sito).
   <br>
-  Ultima comunicazione importante, ci sono degl'Easter Egg quindi tocca a te trovare il bottone che ti porta a tutte le parole magiche, troverai persino i nostri commenti a quegl'audio
+  Ultima comunicazione importante, ci sono degli Easter Egg quindi tocca a te scoprire il bottone che ti porta a tutte le parole magiche, troverai persino i nostri commenti a quegl'audio
   <br>
   <h4>Ora tocca a te, divertiti, scopri e fatti grosse risate(emoji bacio)</h4>
   </p>
