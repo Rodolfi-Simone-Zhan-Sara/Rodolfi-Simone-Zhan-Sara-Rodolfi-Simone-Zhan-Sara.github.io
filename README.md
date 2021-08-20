@@ -7,8 +7,8 @@
     <img src="risorse/favicon.ico" width="40" height="40">
   </a>
   <h1 align="center">DisCode</h1>
-  <h3 align="center">Un sito che legge le parole in modo creativo</h3>  
-    <br />
+  <h3 align="center"> Un sito che legge le parole in modo creativo </h3>
+  <p align="center">
     ·
     <a href = "https://rodolfi-simone-zhan-sara.github.io">Sito</a>
     ·
@@ -34,7 +34,7 @@
   </ol>
 </details>
 
-
+<img src="risorse/rainbow.png">
 
 ## Il progetto
 Migliore visuale da certi browser
@@ -46,6 +46,7 @@ Migliore visuale da certi browser
 * css
 * js
 
+<img src="risorse/rainbow.png">
 
 ## Getting Started
 
