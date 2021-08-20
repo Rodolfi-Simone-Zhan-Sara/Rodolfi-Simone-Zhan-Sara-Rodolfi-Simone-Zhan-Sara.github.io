@@ -40,7 +40,7 @@
 Migliore visuale da certi browser
 
 
-### Con l'utilizzo di
+### Realizzato con
 
 * html
 * css
@@ -48,11 +48,11 @@ Migliore visuale da certi browser
 
 <img src="risorse/rainbow.png">
 
-## Getting Started
+## Per iniziare
 
 Indicazioni per il sito...
 
-### Prerequisites
+### Requisiti
 
 Avere chrome :)
 
