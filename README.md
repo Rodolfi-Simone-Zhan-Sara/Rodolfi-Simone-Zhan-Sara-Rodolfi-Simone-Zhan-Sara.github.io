@@ -40,7 +40,7 @@ Però, nessuna paura, avevano in mente tutto. Al parco, si sedettero rilassati s
 <br>
 Svillupato in due mesi: dopo discussioni, fatiche e sudore. Consiste in una pagina web che riproduce parole con suoni divertenti, ma contemporaneamente riconducibili alle pronuncie dei caratteri stessi.
 <br>
-Ma non solo! In esclusiva anche la lista di descrizioni accurate, perché non vogliamo solo divertire rendiamo conoscienza/facciamo sapere che anche queste piccole cose, piccoli suoni sono da apprezzare~
+Ma non solo! In esclusiva anche la lista di descrizioni accurate, perché non vogliamo solo far divertire ma tentiamo di far conoscere queste piccole cose, piccoli suoni, che dovrebbero essere apprezzati di più~
 </p>
   
 ### Realizzato con
@@ -66,7 +66,10 @@ Ma non solo! In esclusiva anche la lista di descrizioni accurate, perché non vo
   <br>
   <h4>Ora tocca a te, divertiti, scopri e fatti grosse risate(emoji bacio)</h4>
   </p>
-  
+ 
+## Autori
+
+Ideato, Progettato e Realizzato da Simone Rodolfi & Sara Zhan
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/badge/CONTRIBUTORS-%202-red
 [contributors-url]: https://github.com/Rodolfi-Simone-Zhan-Sara/Rodolfi-Simone-Zhan-Sara.github.io/graphs/contributors
