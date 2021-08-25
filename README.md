@@ -36,6 +36,10 @@
 <img src="risorse/rainbow.png">
 
 ## Il progetto
+<p align="center">
+<img src="risorse/home_page.png" width="70%">
+<br>
+</p>
 <p>
 Primavera. Era un giovedì mattina sereno, due ragazzi quindicenni dispersi per le vie e le strade di una grande città. Era imminente l'argomento per il compito estivo d'informatica...
 Però, nessuna paura, avevano in mente tutto. Al parco, si sedettero rilassati su delle panchine, ad ascoltare le reciproche idee e finalmente decisero il progetto...
