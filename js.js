@@ -11,8 +11,7 @@ function play(){
 		document.getElementById("vinile").src = "/risorse/vinile.png";
 	}
 	else{
-		document.getElementById("vinile").src = "/risorse/vinyl.gif";
-		click++;
+
 		var text = document.getElementById("myText").value;
 		text = text.trim();
 		text = text.toLowerCase();
@@ -88,20 +87,25 @@ function play(){
 				}
 			}
 		}
-		audio = new Audio(audios[indice]);
-		audio.play();
-		audio.currentTime = time;
-		time = 0;
-		audio.onended = function() {
-			if(indice+1 < audios.length){
-				indice++;
-				audio.src = audios[indice];
-				audio.play();
-			}
-			else{
-				indice = 0;
-				click = 0;
-				document.getElementById("vinile").src = "/risorse/vinile.png";
+		if (audios.length != 0){
+			click++;
+			document.getElementById("vinile").src = "/risorse/vinyl.gif";
+			
+			audio = new Audio(audios[indice]);
+			audio.play();
+			audio.currentTime = time;
+			time = 0;
+			audio.onended = function() {
+				if(indice+1 < audios.length){
+					indice++;
+					audio.src = audios[indice];
+					audio.play();
+				}
+				else{
+					indice = 0;
+					click = 0;
+					document.getElementById("vinile").src = "/risorse/vinile.png";
+				}
 			}
 		}
 	}	
