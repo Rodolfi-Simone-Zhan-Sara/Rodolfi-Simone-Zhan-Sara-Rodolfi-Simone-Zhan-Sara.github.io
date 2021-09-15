@@ -18,6 +18,7 @@ function play(){
 		if (testoPrima != text){
 			indice = 0;
 			testoPrima = text;
+			time = 0;
 			var ogniLettera = true;
 			audios = []
 			const eCommerciale = ["/risorse/&_-.mp3"];
