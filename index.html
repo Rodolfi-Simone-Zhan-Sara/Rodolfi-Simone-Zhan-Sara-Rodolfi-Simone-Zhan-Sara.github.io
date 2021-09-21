@@ -27,9 +27,10 @@
 				Attenzione!!! Tieni basso il volume, certi suoni sono forti e/o imbarazzanti...
 				</h3>
 			</h2>
-			<div id="bottone" onclick="play()" onmouseover="bottoneOver()" onmouseout="bottoneOut()" type="button" >Audio</div>
 			<form>
-				<input type="text" id="myText" placeholder="Inserisci" pattern="[A-Za-z?!$£€~&-+èÉìÌ\x22]">
+				<div id="bottone" onclick="play()" onmouseover="bottoneOver()" onmouseout="bottoneOut()" type="button">Audio</div>
+				<input type="text" id="myText" placeholder="Inserisci" pattern="[A-Za-z?!$£€~&-+èÉìÌ\x22]" oninvalid="this.setCustomValidity('Non inserire numeri o simboli speciali')"
+  oninput="this.setCustomValidity('')"/>
 			</form>
 		</div>	
 
