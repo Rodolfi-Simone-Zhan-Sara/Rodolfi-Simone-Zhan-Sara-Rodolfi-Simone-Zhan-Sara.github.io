@@ -28,7 +28,7 @@
 				</h3>
 			</h2>
 			<div id="bottone" onclick="play()" onmouseover="bottoneOver()" onmouseout="bottoneOut()" type="button" >Audio</div>
-			<input type="text" id="myText" placeholder="Inserisci"> 
+			<input type="text" id="myText" placeholder="Inserisci" onkeyup ="this.value = this.value.replace(/[^a-z]*/gi, '')">> 
 		</div>	
 
 			<img id="vinile" src="/risorse/vinile.png">
