@@ -4,7 +4,7 @@ var time = 0;
 var testoPrima = "";
 var audios = [];
 function play(){
-    if(click==1){
+    if (click==1){
 		click = 0;
 		time = audio.currentTime;
 		audio.pause();
