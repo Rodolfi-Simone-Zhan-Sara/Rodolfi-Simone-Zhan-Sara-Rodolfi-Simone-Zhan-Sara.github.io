@@ -5,13 +5,13 @@ body
 
 h1
 {
-    margin: 5mm;
+    	margin: 5mm;
 	margin-left: 0cm;
-    font-size: 3cm;
-    line-height: 1.232;
-    font-family: "Merienda";
-    font-weight: 500;
-    color: white;
+    	font-size: 3cm;
+    	line-height: 1.232;
+    	font-family: "Merienda";
+    	font-weight: 500;
+    	color: white;
 }
 
 h2
@@ -20,7 +20,7 @@ h2
 	line-height: 1.4;
 	text-align: left;
 	font-family: "Merienda";
-    font-weight: 300;
+    	font-weight: 300;
 	color: white;
 }
 
@@ -30,18 +30,18 @@ h3
 	line-height: 1.4;
 	text-align: left;
 	font-family: "Merienda";
-    font-weight: 300;
+    	font-weight: 300;
 	color: white;
 }
 
 h4
 {	position: absolute;
 	right: 20px;
-    bottom: 0px;
+    	bottom: 0px;
 	font-size: 13px;
 	line-height: 1.232;
 	font-family: "Merienda";
-    font-weight: 300;
+    	font-weight: 300;
 	color: #ecdebe;
 }
 
@@ -56,54 +56,54 @@ h4
 #egg
 {	position:absolute;
 	display: block;
-    width: 3.5mm;
-    top: 2.3cm;
-    left: 3.75cm;
+    	width: 3.5mm;
+    	top: 2.3cm;
+    	left: 3.75cm;
 }
 
 #sx
 {
 	width: 43%;
-    float: left;
-    display: block;
-    margin-left: 8.5mm;
-    margin-top: 1cm;
+    	float: left;
+    	display: block;
+   	margin-left: 8.5mm;
+    	margin-top: 1cm;
 }
 
 #bottone
 {
 	font-size: 25px;
-    border: 2px solid #00000059;
-    background-color: transparent;
-    font-family: "Merienda";
-    font-weight: 300;
-    color: white;
-    float: left;
-    margin-right: 10px;
-    text-align: center;
-    cursor: pointer;
-    padding-inline: 7px;
-    border-radius: 15px;
+    	border: 2px solid #00000059;
+    	background-color: transparent;
+    	font-family: "Merienda";
+  	font-weight: 300;
+    	color: white;
+    	float: left;
+    	margin-right: 10px;
+    	text-align: center;
+    	cursor: pointer;
+   	padding-inline: 7px;
+    	border-radius: 15px;
 }
 
 input
 {
-    text-align: center;
-    font-size: 20px;
-    height: 40px;
-    font-family: "Merienda";
-    font-weight: 300;
-    color: #613d31;
-    border: none;
+    	text-align: center;
+    	font-size: 20px;
+    	height: 40px;
+    	font-family: "Merienda";
+   	font-weight: 300;
+    	color: #613d31;
+    	border: none;
 	outline-color: #613d31;
 }
 
 #vinile 
 {
-    float: right;
-    display: block;
-    width: 40%;
-    padding-right: 40px;
-    min-width: 250px;
-    margin: 1.6cm;
+    	float: right;
+    	display: block;
+    	width: 40%;
+	padding-right: 40px;
+    	min-width: 250px;
+    	margin: 1.6cm;
 }
