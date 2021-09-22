@@ -27,8 +27,10 @@
 				Attenzione!!! Tieni basso il volume, certi suoni sono forti e/o imbarazzanti...
 				</h3>
 			</h2>
-			<input type="text" id="myText" placeholder="Inserisci" pattern="[A-Za-z?!$£€~&-+èÉìÌ\x22\s]+" title="Non inserire numeri e/o simboli speciali"/>
-			<input type="submit" id="bottone" value="Audio" onclick="play()" onmouseover="bottoneOver()" onmouseout="bottoneOut()" />
+			<form>
+				<input type="text" name="myText" id="myText" placeholder="Inserisci" pattern="[A-Za-z?!$£€~&-+èÉìÌ\x22\s]+" title="Non inserire numeri e/o simboli speciali"/>
+				<input type="submit" id="bottone" value="Audio" onclick="play()" onmouseover="bottoneOver()" onmouseout="bottoneOut()" />
+			</form>
 		</div>
 		
 			<img id="vinile" src="/risorse/vinile.png">
