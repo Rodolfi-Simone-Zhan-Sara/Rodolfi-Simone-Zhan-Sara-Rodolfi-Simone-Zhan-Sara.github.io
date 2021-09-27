@@ -4,6 +4,7 @@
 		<title>DisCode</title> 
 		<link href="grafica.css" rel="stylesheet" type="text/css">
 		<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+		<script type="text/javascript" src="js.js"></script>
 		<link rel="icon" href="risorse/favicon.ico" /> 
 	</head>
 
@@ -27,14 +28,13 @@
 				Attenzione!!! Tieni basso il volume, certi suoni sono forti e/o imbarazzanti...
 				</h3>
 			</h2>
-			<form onsubmit="return false">
+			<form onsubmit="return false" autocomplete="off">
 				<input type="text" name="myText" id="myText" placeholder="Inserisci" pattern="[A-Za-z?!$£€~&-+èÉìÌ\x22\s]+" title="I numeri e i simboli speciali non verrano riprodotti"/>
 				<input type="submit" id="bottone" value="Audio" onclick="play()" onmouseover="bottoneOver()" onmouseout="bottoneOut()" />
 			</form>
 		</div>
 		
 			<img id="vinile" src="/risorse/vinile.png">
-			<script type="text/javascript" src="js.js"></script>
 			<h4>Made by Nessun_nome_mi_piace and Totaeno</h4>
 	</body>
 </html>
