@@ -11,7 +11,6 @@ function play(){
 		document.getElementById("vinile").src = "/risorse/vinile.png";
 	}
 	else{
-
 		var text = document.getElementById("myText").value;
 		text = text.trim();
 		text = text.toLowerCase();
@@ -60,14 +59,14 @@ function play(){
 			const virgolette = ["/risorse/virgolette.mp3"];
 
 			const alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",'"',","," ",";",":","~",".","£","€","$","!","?","ì","è","é","ù","ò","à","+","&","-"];
-			const sound = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z,virgolette,silenzio,silenzio,silenzio,silenzio,tilde,punto,valuta,valuta,valuta,esclamativo,interrogativo,ì,è,è,u,o,a,più,eCommerciale,eCommerciale];
+			const sound = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,virgolette,silenzio,silenzio,silenzio,silenzio,tilde,punto,valuta,valuta,valuta,esclamativo,interrogativo,ì,è,è,u,o,a,più,eCommerciale,eCommerciale];
 
 			const egg = ["/risorse/Egg_ayayay.mp3","/risorse/Egg_bolle_bocca.mp3","/risorse/Egg_compleanno.mp3","/risorse/Egg_fortuna.mp3","/risorse/Egg_haha_canzone.mp3","/risorse/Egg_hehehe.mp3","/risorse/Egg_kling.mp3","/risorse/Egg_maialone_voc.mp3","/risorse/Egg_meditazione.mp3","/risorse/Egg_morte.mp3","/risorse/Egg_mostro.mp3","/risorse/Egg_natale.mp3","/risorse/Egg_orologio.mp3","/risorse/Egg_polizia_sirena.mp3","/risorse/Egg_rompiscatole.mp3","/risorse/Egg_tamburello.mp3","/risorse/Egg_ttt.mp3","/risorse/Egg_wow_donna.mp3","/risorse/Egg_www_uomo.mp3","/risorse/Egg_yay_funny.mp3","/risorse/Egg_ysml_song.mp3"];
 			const egg_nome = ["ayayay","pop","compleanno","mi sento fortunato","sorridi","hehehe","pulito","sclero","meditazione","mood di oggi","studio","natale","tic tac","sirena","dolce armonia","tamburello","minigun","wow","www","yay","ysml"];
 		 
 
-			for (let e of egg_nome) {
-				if (testoPrima == e) {
+			for (let e of egg_nome){
+				if (testoPrima == e){
 					let index = egg_nome.indexOf(e);
 					audios.push(egg[index])
 					ogniLettera = false
@@ -75,13 +74,13 @@ function play(){
 				}
 			}
 			
-			if (ogniLettera == true) {
-				for (let e of testoPrima) {
-					for(let l of alphabet) {
-						if (e == l) {
+			if (ogniLettera == true){
+				for (let e of testoPrima){
+					for (let l of alphabet){
+						if (e == l){
 							let index = alphabet.indexOf(l);
 							let i = Math.floor(Math.random() * sound[index].length);
-							let list = sound[index]
+							let list = sound[index];
 							audios.push(list[i]);
 						}
 					}
@@ -96,8 +95,8 @@ function play(){
 			audio.play();
 			audio.currentTime = time;
 			time = 0;
-			audio.onended = function() {
-				if(indice+1 < audios.length){
+			audio.onended = function(){
+				if (indice+1 < audios.length){
 					indice++;
 					audio.src = audios[indice];
 					audio.play();
@@ -112,10 +111,10 @@ function play(){
 	}	
 }
 function bottoneOver(){
-	document.getElementById("bottone").style.boxShadow = "2px 2px 20px 0px #a4a1a0b0"
-	document.getElementById("bottone").style.backgroundColor = "#00000014"
+	document.getElementById("bottone").style.boxShadow = "2px 2px 20px 0px #a4a1a0b0";
+	document.getElementById("bottone").style.backgroundColor = "#00000014";
 }
 function bottoneOut(){
-	document.getElementById("bottone").style.backgroundColor = "transparent"
-	document.getElementById("bottone").style.boxShadow = "none"	
+	document.getElementById("bottone").style.backgroundColor = "transparent";
+	document.getElementById("bottone").style.boxShadow = "none";
 }
